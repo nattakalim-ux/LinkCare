@@ -1,0 +1,79 @@
+.wrap {
+  width: 100%;
+}
+
+.legend {
+  display: flex;
+  gap: var(--space-16);
+  margin-bottom: var(--space-12);
+  font-size: var(--text-caption);
+  flex-wrap: wrap;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  color: var(--color-slate);
+}
+
+.swatch {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-pill);
+  display: inline-block;
+}
+
+.chartRow {
+  display: flex;
+  gap: var(--space-12);
+  align-items: flex-start;
+}
+
+.axis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.chartArea {
+  flex: 1;
+  min-width: 0;
+}
+
+.svg {
+  display: block;
+  overflow: visible;
+}
+
+.gridline {
+  stroke: #eef0f2;
+  stroke-width: 1;
+}
+
+.xLabels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--space-8);
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+}
+
+.endValues {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  font-size: var(--text-caption);
+  font-weight: 700;
+  padding-top: 2px;
+  flex-shrink: 0;
+}
+
+.empty {
+  font-size: var(--text-body);
+  color: var(--color-slate);
+}

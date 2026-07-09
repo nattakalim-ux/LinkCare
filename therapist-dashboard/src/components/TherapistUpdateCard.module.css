@@ -1,0 +1,25 @@
+.card {
+  background: var(--color-white);
+  border-radius: var(--radius-card);
+  padding: var(--space-16);
+  box-shadow: 0 1px 3px rgba(13, 43, 69, 0.08);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+}
+
+.author {
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.message {
+  margin-top: var(--space-8);
+  font-size: var(--text-body);
+  color: var(--color-navy);
+  line-height: 1.5;
+}

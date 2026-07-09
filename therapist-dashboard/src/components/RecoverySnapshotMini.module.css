@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 2px var(--space-12);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-8);
+  font-size: var(--text-caption);
+}
+
+.label {
+  color: var(--color-slate);
+}
+
+.value {
+  color: var(--color-navy);
+  font-weight: 600;
+}

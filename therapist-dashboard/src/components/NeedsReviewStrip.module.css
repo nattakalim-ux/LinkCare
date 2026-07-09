@@ -1,0 +1,35 @@
+.strip {
+  display: flex;
+  gap: var(--space-16);
+  overflow-x: auto;
+  padding-bottom: var(--space-4);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+  background: var(--color-white);
+  border-radius: var(--radius-card);
+  padding: var(--space-12) var(--space-16);
+  box-shadow: 0 1px 3px rgba(13, 43, 69, 0.08);
+  flex: 0 0 auto;
+  min-width: 240px;
+}
+
+.name {
+  font-size: var(--text-body);
+  font-weight: 700;
+  color: var(--color-navy);
+}
+
+.reason {
+  font-size: var(--text-caption);
+  color: var(--color-attention);
+  margin-top: 2px;
+}
+
+.empty {
+  font-size: var(--text-body);
+  color: var(--color-slate);
+}

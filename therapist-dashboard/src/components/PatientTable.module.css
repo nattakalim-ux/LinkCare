@@ -1,0 +1,75 @@
+.tableWrap {
+  background: var(--color-white);
+  border-radius: var(--radius-card);
+  box-shadow: 0 1px 3px rgba(13, 43, 69, 0.08);
+  overflow: hidden;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  text-align: left;
+  font-size: var(--text-caption);
+  font-weight: 600;
+  color: var(--color-slate);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: var(--space-16) var(--space-24);
+  border-bottom: 1px solid #eef0f2;
+}
+
+.table td {
+  padding: var(--space-16) var(--space-24);
+  border-bottom: 1px solid #eef0f2;
+  vertical-align: middle;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table tbody tr:hover {
+  background: var(--color-light-grey);
+}
+
+.patientCell {
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+}
+
+.patientName {
+  font-size: var(--text-body);
+  font-weight: 700;
+  color: var(--color-navy);
+}
+
+.patientMeta {
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+  margin-top: 2px;
+}
+
+.goalTitle {
+  font-size: var(--text-body);
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.goalMeta {
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+  margin-top: 2px;
+}
+
+.empty {
+  padding: var(--space-32);
+  text-align: center;
+  font-size: var(--text-body);
+  color: var(--color-slate);
+  background: var(--color-white);
+  border-radius: var(--radius-card);
+}

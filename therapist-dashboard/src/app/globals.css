@@ -1,0 +1,78 @@
+/* Design tokens sourced from docs/DESIGN_SYSTEM.md — Therapist Dashboard values only. */
+:root {
+  /* Primary */
+  --color-sky-blue: #3498db; /* therapist dashboard primary actions */
+  --color-teal-green: #1abc9c; /* secondary accents, positive series */
+  --color-blue-accent: #1d4edb; /* secondary accents */
+  --color-navy: #0d2b45; /* primary text */
+  --color-slate: #6b7280; /* secondary text */
+  --color-white: #ffffff;
+  --color-light-grey: #f5f6f7; /* cards & surfaces */
+
+  /* Semantic */
+  --color-success: #27ae60;
+  --color-attention: #f0997b;
+  --color-info: #3498db;
+  --color-error: #d85a30;
+
+  /* Typography scale — Therapist Dashboard */
+  --text-display: 32px;
+  --text-heading: 24px;
+  --text-section: 18px;
+  --text-body: 14px;
+  --text-caption: 12px;
+  --text-button: 13px;
+
+  /* Spacing (8pt system) */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+
+  /* Radius */
+  --radius-card: 16px;
+  --radius-button: 12px;
+  --radius-input: 12px;
+  --radius-pill: 999px;
+
+  /* Motion */
+  --motion-button: 100ms;
+  --motion-card: 200ms;
+  --motion-page: 250ms;
+
+  --background: var(--color-white);
+  --foreground: var(--color-navy);
+}
+
+html {
+  height: 100%;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100%;
+  color: var(--foreground);
+  background: var(--color-light-grey);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  font-size: var(--text-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

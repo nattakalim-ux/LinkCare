@@ -1150,6 +1150,23 @@
         "Forward Reach",
         "Hand Open & Close"
       ]
+    },
+    {
+      "patientId": "PT00018472",
+      "assignmentId": "A00018472",
+      "date": "2026-07-09",
+      "status": "completed",
+      "durationMinutes": 17,
+      "exerciseCount": 3,
+      "totalReps": 105,
+      "difficulty": "easy",
+      "painScore": 2,
+      "fatigueScore": 3,
+      "barriers": [],
+      "noteToTherapist": "Joint dry-run: confirming patient-app write is visible via shared tunnel",
+      "goalReflection": "definitely",
+      "sharedWithTherapist": true,
+      "id": "abV4-CT"
     }
   ],
   "recoverySnapshots": [

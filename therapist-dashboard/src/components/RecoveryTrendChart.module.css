@@ -1,0 +1,131 @@
+.wrap {
+  width: 100%;
+}
+
+.legend {
+  display: flex;
+  gap: var(--space-16);
+  margin-bottom: var(--space-12);
+  font-size: var(--text-caption);
+  flex-wrap: wrap;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  color: var(--color-slate);
+}
+
+.swatch {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-pill);
+  display: inline-block;
+}
+
+.dashSwatch {
+  width: 12px;
+  height: 0;
+  border-top: 2px dashed var(--color-slate);
+  display: inline-block;
+}
+
+.chartRow {
+  display: flex;
+  gap: var(--space-12);
+  align-items: flex-start;
+}
+
+.axis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.chartArea {
+  flex: 1;
+  min-width: 0;
+}
+
+.svg {
+  display: block;
+  overflow: visible;
+}
+
+.gridline {
+  stroke: #eef0f2;
+  stroke-width: 1;
+}
+
+.gapLine {
+  stroke: var(--color-slate);
+  stroke-width: 1;
+  stroke-dasharray: 4 3;
+}
+
+.gapLabel {
+  font-size: 8px;
+  fill: var(--color-slate);
+}
+
+.difficultyLegend {
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+  margin-top: var(--space-8);
+  font-size: var(--text-caption);
+  flex-wrap: wrap;
+}
+
+.difficultyLegendLabel {
+  color: var(--color-slate);
+  font-weight: 600;
+}
+
+.xLabels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--space-8);
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+}
+
+.xLabelGap {
+  font-style: italic;
+}
+
+.summary {
+  margin-top: var(--space-16);
+  padding-top: var(--space-16);
+  border-top: 1px solid #eef0f2;
+  display: flex;
+  gap: var(--space-24);
+  flex-wrap: wrap;
+}
+
+.summaryItem {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.summaryLabel {
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+}
+
+.summaryValue {
+  font-size: var(--text-section);
+  font-weight: 700;
+  color: var(--color-navy);
+}
+
+.empty {
+  font-size: var(--text-body);
+  color: var(--color-slate);
+}

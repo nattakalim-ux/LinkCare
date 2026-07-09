@@ -1,0 +1,44 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+}
+
+.label {
+  flex: 0 0 160px;
+  font-size: var(--text-body);
+  color: var(--color-navy);
+}
+
+.track {
+  flex: 1;
+  height: 8px;
+  border-radius: var(--radius-pill);
+  background: #eef0f2;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: var(--color-attention);
+  border-radius: var(--radius-pill);
+}
+
+.count {
+  flex: 0 0 140px;
+  text-align: right;
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+  white-space: nowrap;
+}
+
+.empty {
+  font-size: var(--text-body);
+  color: var(--color-slate);
+}

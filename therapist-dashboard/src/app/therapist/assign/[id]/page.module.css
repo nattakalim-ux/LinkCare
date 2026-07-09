@@ -1,0 +1,339 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--space-16);
+}
+
+.heading {
+  font-size: var(--text-display);
+  font-weight: 700;
+  color: var(--color-navy);
+}
+
+.subheading {
+  margin-top: var(--space-4);
+  font-size: var(--text-body);
+  color: var(--color-slate);
+}
+
+.backLink {
+  font-size: var(--text-button);
+  color: var(--color-navy);
+  font-weight: 600;
+  padding: var(--space-12) var(--space-20);
+  border-radius: var(--radius-button);
+  border: 1px solid #e5e7eb;
+  background: var(--color-white);
+}
+
+.columns {
+  margin-top: var(--space-32);
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(320px, 1fr);
+  gap: var(--space-32);
+  align-items: start;
+}
+
+.sectionTitle {
+  font-size: var(--text-section);
+  font-weight: 700;
+  color: var(--color-navy);
+  margin-bottom: var(--space-16);
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+}
+
+.stepBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: var(--color-sky-blue);
+  color: var(--color-white);
+  font-size: var(--text-caption);
+  font-weight: 700;
+}
+
+.bodyPartFilters {
+  margin-top: var(--space-12);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
+.filter,
+.filterActive {
+  padding: var(--space-4) var(--space-12);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-caption);
+  border: 1px solid #e5e7eb;
+  background: var(--color-white);
+  color: var(--color-slate);
+  cursor: pointer;
+}
+
+.filterActive {
+  background: var(--color-sky-blue);
+  border-color: var(--color-sky-blue);
+  color: var(--color-white);
+}
+
+.search,
+.textInput,
+.textarea {
+  width: 100%;
+  padding: var(--space-12) var(--space-16);
+  border-radius: var(--radius-input);
+  border: 1px solid #e5e7eb;
+  font-size: var(--text-body);
+  font-family: inherit;
+  background: var(--color-white);
+}
+
+.search:focus,
+.textInput:focus,
+.textarea:focus {
+  outline: 2px solid var(--color-sky-blue);
+  outline-offset: 1px;
+}
+
+.picker {
+  background: var(--color-white);
+  border-radius: var(--radius-card);
+  padding: var(--space-24);
+  box-shadow: 0 1px 3px rgba(13, 43, 69, 0.08);
+}
+
+.exerciseGrid {
+  margin-top: var(--space-16);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--space-12);
+  max-height: 640px;
+  overflow-y: auto;
+}
+
+.exerciseCard {
+  border: 1px solid #eef0f2;
+  border-radius: var(--radius-card);
+  padding: var(--space-16);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.exerciseNameRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-8);
+}
+
+.exerciseName {
+  font-size: var(--text-body);
+  font-weight: 700;
+  color: var(--color-navy);
+}
+
+.categoryBadge {
+  flex-shrink: 0;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--color-sky-blue);
+  background: rgba(52, 152, 219, 0.12);
+  padding: 2px var(--space-8);
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+}
+
+.exerciseMeta {
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+}
+
+.addButton,
+.addedButton {
+  margin-top: var(--space-8);
+  padding: var(--space-8);
+  border-radius: var(--radius-button);
+  border: none;
+  font-size: var(--text-button);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.addButton {
+  background: var(--color-sky-blue);
+  color: var(--color-white);
+}
+
+.addedButton {
+  background: #eef0f2;
+  color: var(--color-slate);
+  cursor: default;
+}
+
+.builder {
+  background: var(--color-white);
+  border-radius: var(--radius-card);
+  padding: var(--space-24);
+  box-shadow: 0 1px 3px rgba(13, 43, 69, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.builderHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
+.builderHeader .sectionTitle {
+  margin-bottom: 0;
+}
+
+.summaryStats {
+  display: flex;
+  gap: var(--space-16);
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+}
+
+.summaryStats strong {
+  color: var(--color-navy);
+}
+
+.fieldLabel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+  font-weight: 600;
+  position: relative;
+}
+
+.charCount {
+  align-self: flex-end;
+  font-size: 11px;
+  color: var(--color-slate);
+  font-weight: 500;
+}
+
+.empty {
+  font-size: var(--text-body);
+  color: var(--color-slate);
+}
+
+.programmeList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.programmeItem {
+  border: 1px solid #eef0f2;
+  border-radius: var(--radius-card);
+  padding: var(--space-12);
+  display: flex;
+  gap: var(--space-12);
+}
+
+.itemNumber {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: var(--color-light-grey);
+  color: var(--color-navy);
+  font-size: var(--text-caption);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.programmeItemBody {
+  flex: 1;
+}
+
+.programmeNameRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-8);
+}
+
+.programmeName {
+  font-size: var(--text-body);
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.itemDuration {
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+  flex-shrink: 0;
+}
+
+.programmeControls {
+  margin-top: var(--space-8);
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+}
+
+.programmeControls label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+}
+
+.programmeControls input {
+  width: 56px;
+  padding: var(--space-4) var(--space-8);
+  border-radius: var(--radius-input);
+  border: 1px solid #e5e7eb;
+}
+
+.removeButton {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: var(--color-error);
+  font-size: var(--text-caption);
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.saveButton {
+  background: var(--color-sky-blue);
+  color: var(--color-white);
+  font-size: var(--text-button);
+  font-weight: 600;
+  padding: var(--space-12);
+  border-radius: var(--radius-button);
+  border: none;
+  cursor: pointer;
+}
+
+.saveButton:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+@media (max-width: 900px) {
+  .columns {
+    grid-template-columns: 1fr;
+  }
+}

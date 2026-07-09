@@ -1,0 +1,146 @@
+.card {
+  background: var(--color-white);
+  border-radius: var(--radius-card);
+  padding: var(--space-24);
+  box-shadow: 0 1px 3px rgba(13, 43, 69, 0.08);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category {
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.percent {
+  font-size: var(--text-section);
+  font-weight: 700;
+  color: var(--color-sky-blue);
+}
+
+.title {
+  margin-top: var(--space-4);
+  font-size: var(--text-section);
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.progressLabel {
+  margin-top: var(--space-12);
+  font-size: var(--text-caption);
+  font-weight: 600;
+  color: var(--color-slate);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.disclaimer {
+  margin-top: var(--space-4);
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--color-slate);
+  font-style: italic;
+}
+
+.journey {
+  margin-top: var(--space-16);
+  padding-top: var(--space-16);
+  border-top: 1px solid #eef0f2;
+}
+
+.journeyLabel {
+  font-size: var(--text-caption);
+  color: var(--color-slate);
+  margin-bottom: var(--space-8);
+}
+
+.segments {
+  display: flex;
+  gap: var(--space-4);
+}
+
+.segment {
+  flex: 1;
+  height: 10px;
+  border-radius: var(--radius-pill);
+  background: #d1d5db;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.segment.completed {
+  background: var(--color-success);
+}
+
+.segment.in_progress {
+  background: var(--color-sky-blue);
+}
+
+.segment.locked {
+  background: #d1d5db;
+}
+
+.segmentActive {
+  outline: 2px solid var(--color-navy);
+  outline-offset: 2px;
+}
+
+.milestoneDetail {
+  margin-top: var(--space-8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-8);
+  font-size: var(--text-caption);
+  background: var(--color-light-grey);
+  border-radius: var(--radius-input);
+  padding: var(--space-8) var(--space-12);
+}
+
+.milestoneDetailTitle {
+  color: var(--color-navy);
+  font-weight: 600;
+}
+
+.milestoneDetailStatus {
+  color: var(--color-slate);
+  flex-shrink: 0;
+}
+
+.signOff {
+  margin-top: var(--space-12);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-12);
+  flex-wrap: wrap;
+  font-size: var(--text-caption);
+  color: var(--color-navy);
+  background: rgba(52, 152, 219, 0.1);
+  border-radius: var(--radius-input);
+  padding: var(--space-12);
+}
+
+.signOffButton {
+  background: var(--color-sky-blue);
+  color: var(--color-white);
+  font-size: var(--text-button);
+  font-weight: 600;
+  padding: var(--space-8) var(--space-16);
+  border-radius: var(--radius-button);
+  border: none;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.signOffButton:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
