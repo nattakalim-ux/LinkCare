@@ -88,6 +88,8 @@ Prioritise patients requiring attention first.
 - Patient Detail
 - Assign Rehabilitation Programme
 - Progress Review
+- Calendar (read-only list of all patients' upcoming appointments — not an editable scheduling system; does not conflict with "Scheduling" being out of scope below)
+- Profile (the current therapist's own profile and their assigned patients; there is no authentication in this MVP, so this always shows the one fixed demo therapist — see `lib/currentTherapist.ts`)
 
 ---
 
@@ -114,16 +116,24 @@ Dashboard
 │      └── Patient Detail
 │               ├── Assign Rehabilitation Programme
 │               └── Progress Review
+│
+├── Calendar
+│
+└── Profile
 ```
 
 ---
 
 # 6. Navigation
 
-Top Navigation
+Sidebar Navigation (left-hand, not top navigation — corrected from an earlier draft of this document)
 
 - Dashboard
 - Patients
+- Calendar
+- Profile
+
+A persistent identity chip (current therapist's name, role, and avatar) is shown in the top-right of every page and links to Profile.
 
 Exercises are accessed through **Assign Rehabilitation Programme** rather than a standalone Exercise Catalogue.
 
@@ -240,17 +250,18 @@ This page helps the therapist understand whether stalled progress is caused by l
 
 - Patient Header
 - Recovery Snapshot
+- Progress Over Time (Overall Progress and Body Part Progress line charts)
 - Progress Review Summary
 - Primary Goal
 - Goal Journey
 - Secondary Goals
 - Weekly Consistency
-- Pain Trend
-- Fatigue Trend
-- Recovery Journal
+- Barrier Insights
+- Recovery Journal (Pain/Fatigue trend chart + Session Difficulty + day-by-day notes — see the dedicated "Barrier Insights & Recovery Journal" section below; this replaced separate "Pain Trend" / "Fatigue Trend" components, which are no longer separate)
 - Today's Focus (Current Programme)
 - Latest Therapist Update
 - Next Appointment
+- Recovery Team
 - Medical Information
 
 ---
@@ -287,9 +298,8 @@ Patient Detail displays:
 - Goal Journey
 - Secondary Goals
 - Weekly Consistency
-- Pain Trend
-- Fatigue Trend
-- Recovery Journal
+- Barrier Insights
+- Recovery Journal (combined Pain/Fatigue trend chart with Session Difficulty dot row underneath)
 - Current Programme
 - Latest Therapist Update
 - Next Appointment
@@ -308,20 +318,37 @@ Barrier Insights is a core LinkCare feature because it provides the context behi
 The therapist should be able to distinguish between:
 
 - low consistency caused by pain or fatigue
-- low consistency caused by busy schedules or forgetfulness
 - exercises that are too difficult
-- emotional or motivational barriers
+- needing physical assistance to complete a session
+- dizziness or balance concerns
+- low mood or low motivation
+- an open-ended reason the patient typed themselves ("Other")
 - successful rehabilitation with no major barriers
+
+(This replaces an earlier draft's "busy schedules or forgetfulness" framing — those two options, `"Too busy"` and `"Forgot"`, were removed from the canonical barrier list as low-signal excuse-style categories. A free-text "Other" option replaces them.)
+
+### Canonical Barrier List
+
+- Pain
+- Fatigue
+- Exercise too difficult
+- Needed assistance
+- Dizziness or balance concern
+- Low mood / low motivation
+- Other (free text, entered directly as the barrier value — there is no separate "detail" field; see `docs/API_CONTRACT.md` / `sessions.json`'s `barriers: string[]`)
+
+This list is authored and selected in the Patient App's Session Capture screen, which does not exist in this repo. The Therapist Dashboard only displays and aggregates whatever barrier strings arrive via the shared mock server — it has no barrier-selection UI of its own, and nothing in this codebase enforces that the Patient App emits exactly these seven strings. If the two apps' wording, capitalization, or punctuation ever drift apart, Barrier Insights will silently split what should be one barrier into two separate rows, since aggregation is by exact string match.
 
 ---
 
 ## Components
 
-- Barrier Frequency Summary
-- Recovery Journal Timeline
-- Pain Trend
-- Fatigue Trend
-- Session Difficulty
+- Barrier Frequency Summary — each barrier's count, plus its average recorded pain score where at least one session with that barrier also has a pain score (e.g. "Exercise too difficult · 1x · avg pain 3.0/10"). A barrier that only ever occurs on a session with no recorded pain score (for example, a missed/`not_completed` day) shows just the count — never a fabricated or zero average.
+- Recovery Journal trend chart — Pain and Fatigue plotted as two line charts sharing one 0–10 axis, connected across "no session" days rather than breaking the line at each gap (the gap itself is still marked, see below).
+- Session Difficulty dot row — one colored dot per day (green = Easy, amber/coral = Moderate, red = Difficult), positioned under the trend chart on the exact same x-axis as the line chart, with its own legend directly above the row.
+- Gap markers — a day with no session recorded shows a dashed vertical line labeled "No session" at the correct calendar position; it is never silently skipped.
+- Summary chips — Average Pain, Average Fatigue (both numeric averages), and Most Common Difficulty (a mode — e.g. "Easy" — deliberately not averaged into a number, since difficulty is categorical).
+- Recovery Journal day-by-day list — underneath the chart: duration, difficulty, goal reflection, exercises completed that day (varies day to day — not always the full assigned set), the patient's note to the therapist, and any barrier tag.
 - Goal Reflection
 - Patient Notes
 
@@ -335,7 +362,7 @@ The therapist should be able to distinguish between:
 
 ## User Actions
 
-- Review common barriers
+- Review common barriers and their average pain score
 - Read patient notes
 - Identify rehabilitation patterns
 - Decide whether Today's Focus should be adjusted
@@ -346,12 +373,12 @@ The therapist should be able to distinguish between:
 
 Therapist can view:
 
-- Pain
-- Fatigue
-- Session Difficulty
+- Pain and Fatigue trend (line chart, shared axis, gap-aware)
+- Session Difficulty (color-coded dot row with legend)
 - Goal Reflection
 - Patient Notes
-- Most Common Barriers
+- Barrier frequency with average pain score per barrier
+- Average Pain, Average Fatigue, and Most Common Difficulty summary chips
 
 Barrier Insights should help explain Weekly Consistency and Attention Status.
 
@@ -382,10 +409,11 @@ Only therapist-approved updates are published to the Patient App.
 - Updated By
 - Next Review
 - Recovery Drivers
+- Add Assessment (see below)
 - Suggested Recovery Snapshot
 - Latest Therapist Update
 - Approve Snapshot
-- Edit Snapshot
+- Edit Snapshot (number input + stepper only — no slider; see Driver Definitions below)
 
 ---
 
@@ -406,17 +434,27 @@ The Recovery Engine combines four inputs:
 
 ### Therapist Functional Assessment
 
-Therapist-led assessment of functional capability for each body part.
+Therapist-led assessment of functional capability for each body part, entered through an **Add Assessment** flow rather than freely dragging a value.
 
-Examples:
+**There is deliberately no slider for this input.** A free-dragging slider with no clinical basis behind whatever number the therapist lands on was identified as a traceability problem and removed. The Functional Assessment value for a body part only ever changes when the therapist submits a real Add Assessment entry; before that, it shows the body part's current recorded level, visibly labeled "baseline — no assessment entered" so it's never confused with a real reading.
 
-- Shoulder control
-- Elbow control
-- Hand function
-- Finger dexterity
-- Functional task observation
+**Add Assessment flow:**
 
-In future versions, this can be supported by structured assessments such as ARAT, Fugl-Meyer, Box and Block, Nine Hole Peg Test, and Grip Strength.
+1. Therapist picks an assessment type: Grip Test/Dynamometer, FMA-UE, ARAT, Box and Block Test, or Nine Hole Peg Test.
+2. Therapist enters the raw score (for FMA-UE and ARAT, which have standardized maximums of 66 and 57, the entry is labeled "out of 66" / "out of 57" and shown as `score/max`, e.g. "32/66"; the other three assessments have no standard ceiling — kg, block count, seconds — and are entered/shown as a raw number).
+3. The score maps to body part(s) using a **draft mapping, flagged in-product as needing clinical validation**:
+
+   | Assessment | Maps to |
+   |---|---|
+   | Grip Test/Dynamometer | Hand |
+   | FMA-UE | Shoulder, Elbow, Hand |
+   | Box and Block Test | Hand, Fingers |
+   | Nine Hole Peg Test | Fingers |
+   | ARAT | **No mapping defined** — selectable in the dropdown, but applying it is blocked with an inline warning rather than guessing |
+
+4. Submitting only updates the Suggested Target for the mapped body part(s) — it does **not** write to the Recovery Snapshot. The therapist can still fine-tune the Suggested Target afterward via a plain number input + stepper, and nothing is published until the existing Approve action is clicked.
+
+The score-to-percent conversion (score ÷ max for FMA-UE/ARAT; entered directly as % for the other three) is likewise unvalidated clinically and is clearly labeled as such in the UI. Applied assessments are shown in a session-only log on the page and are not persisted — there is no field in `recoverySnapshots.json` for assessment history.
 
 ---
 
@@ -490,6 +528,18 @@ Recovery Snapshot represents a **functional recovery index**, not a diagnostic m
 The displayed percentage should reflect meaningful recovery over time, not day-to-day fluctuation.
 
 Small temporary changes should not immediately reduce the patient's displayed recovery progress.
+
+### "Recovery Progress" naming and disclaimer
+
+Every place a goal's progress percentage is shown (Goal Card, Patient Detail, Progress Review), the metric is labeled **"Recovery Progress"** — not "Goal Progress" or "Functional Readiness", both of which read as overclaiming. It always appears with this disclaimer directly underneath:
+
+> Reflects functional rehabilitation progress. Does not replace clinical judgment for real-world activity clearance.
+
+### Goal Journey
+
+Goal Journey is a single horizontal **segmented progress bar** — one segment per milestone, not a step-by-step checklist. Segments are colored green (complete), blue (in progress), or gray (locked). A milestone's full title is not shown by default; it appears on hover (native tooltip) or on click (a detail row toggles open below the bar).
+
+**A goal's final milestone never auto-completes just because `progressPercent` reaches 100.** When that happens, the bar instead surfaces an explicit "Final milestone reached 100% — requires therapist sign-off" prompt with a "Mark Milestone Complete" button the therapist must click. This mirrors the Product Rule above: a number crossing a threshold is not, by itself, sufficient grounds to declare a goal complete.
 
 ---
 
@@ -571,6 +621,10 @@ A standalone Exercise Catalogue is not part of the MVP.
 - Exercise Picker
 - Recovery Drivers Card
 - Progress Review Card
+- Barrier Insights
+- Recovery Journal trend chart
+- Add Assessment form
+- Therapist Identity Bar (top-right name/role/avatar chip, present on every page)
 
 ---
 
@@ -601,8 +655,10 @@ The therapist can:
 | Dashboard | patients, goals, sessions |
 | Patient List | patients |
 | Patient Detail | patients, goals, recoverySnapshots, assignments, sessions, therapists |
-| Progress Review | recoverySnapshots, sessions, goals |
-| Assign Rehabilitation Programme | assignments, exercises, goals |
+| Progress Review | patients, recoverySnapshots, sessions, goals, therapists |
+| Assign Rehabilitation Programme | patients, assignments, exercises, goals |
+| Calendar | patients |
+| Profile | therapists, patients, recoverySnapshots, goals, sessions |
 
 ---
 
@@ -638,13 +694,13 @@ The therapist can:
 
 ✓ Next Review
 
-✓ Goal Journey
+✓ Goal Journey (segmented bar; final milestone requires explicit therapist sign-off, never auto-completes)
 
 ✓ Weekly Consistency
 
-✓ Barrier Insights
+✓ Barrier Insights (with average pain per barrier)
 
-✓ Recovery Journal
+✓ Recovery Journal (Pain/Fatigue chart + Session Difficulty dots + gap markers + summary chips)
 
 ✓ Goal Reflection
 
@@ -660,13 +716,31 @@ The therapist can:
 
 ✓ Recovery Drivers visible
 
+✓ Add Assessment flow (dropdown + score, draft body-part mapping, ARAT blocked pending a mapping)
+
 ✓ Suggested Snapshot visible
 
-✓ Therapist can edit values
+✓ Therapist can edit values (number input + stepper — no slider)
 
 ✓ Therapist can approve values
 
 ✓ Approved values update the display
+
+---
+
+## Calendar
+
+✓ Shows every patient's next appointment, sorted
+
+✓ Read-only (no booking/editing — that remains out of scope)
+
+---
+
+## Profile
+
+✓ Shows the current therapist's own details
+
+✓ Shows their assigned patients
 
 ---
 
@@ -723,7 +797,9 @@ Prasert Wongwipha
 
 **Primary Goal**
 
-Return to Work
+Improve Work Readiness
+
+(Renamed from an earlier draft's "Return to Work", which was flagged as overclaiming for an MVP demo — see Canonical Goal Titles below.)
 
 **Assigned PT**
 
@@ -739,18 +815,29 @@ Steering Control & Grip Confidence
 
 Supporting mock data includes five additional patients to demonstrate dashboard scalability.
 
+### Canonical Goal Titles
+
+Primary goal titles were renamed from an earlier draft to reduce overclaiming — the two previously-inconsistent daily-living strings were also consolidated into one:
+
+| Current | Previous (retired) |
+|---|---|
+| Improve Work Readiness | Return to Work |
+| Improve Daily Living Skills | Regain Daily Living Skills / Regain Independence in Daily Living (two inconsistent strings for the same category, now one) |
+| Improve Social Participation | Return to Social Community |
+| Improve Functional Mobility | *(unchanged)* |
+
+Secondary goals remain patient-specific personal goals (e.g. "Cook for my family again") and are not part of this canonical primary-goal list.
+
 ---
 
 # 14. Future Roadmap
 
 Future releases may include:
 
-- Assessment modules
-- ARAT
-- Nine Hole Peg Test
-- Box and Block Test
-- Fugl-Meyer Assessment
-- Grip Strength
+- Clinical validation of the Add Assessment → body-part mapping (currently a draft, flagged in-product — see Progress Review's Driver Definitions above)
+- Clinical validation of the score-to-percent conversion per assessment type (currently score ÷ max for FMA-UE/ARAT, or entered directly as % for the other three — several real-world assessments are inverted, e.g. Nine Hole Peg Test where a lower time is better, so a naive linear scale would be actively wrong)
+- A defined ARAT → body-part mapping (currently blocked, not guessed)
+- Persisted assessment history (currently session-only, not written to `recoverySnapshots.json`)
 - Armeo integration
 - Smart Pegboard integration
 - Wearable sensor integration

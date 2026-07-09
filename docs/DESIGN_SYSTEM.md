@@ -270,10 +270,14 @@ The **Start** button is always centred and represents the primary action.
 
 ## Therapist Dashboard
 
-Top Navigation
+Sidebar Navigation (left-hand — corrected from an earlier draft of this document, which said "Top Navigation")
 
 - Dashboard
 - Patients
+- Calendar
+- Profile
+
+A persistent identity chip (name, role, avatar) sits in the top-right of every page and links to Profile.
 
 Exercises are accessed through **Assign Programme**.
 
@@ -314,7 +318,12 @@ Visual overview of upper limb recovery.
 
 - Primary Goal
 - Expandable Secondary Goals
-- Goal Journey
+- "Recovery Progress" percentage (not "Goal Progress" / "Functional Readiness") with a fixed disclaimer underneath: "Reflects functional rehabilitation progress. Does not replace clinical judgment for real-world activity clearance."
+- Goal Journey — a single horizontal **segmented progress bar** (one segment per milestone: green = complete, blue = in progress, gray = locked), not a step-by-step checklist. Full milestone text shows on hover or click, not by default.
+
+### Rules
+
+- A goal's final milestone never auto-completes just because the underlying progress percentage reaches 100 — it requires an explicit therapist action ("Mark Milestone Complete") on the Therapist Dashboard. A number crossing a threshold is not sufficient grounds to declare a goal complete.
 
 ### Used On
 
@@ -409,6 +418,8 @@ Used for:
 
 - Pain
 - Fatigue
+
+**Not used for:** the Therapist Dashboard's Functional Assessment input (Progress Review). A free-dragging slider there was found to have no traceable clinical basis for whatever value the therapist landed on, and was replaced with the Add Assessment flow (pick an assessment type, enter its score) plus a plain number input + stepper for manual fine-tuning. Sliders on the Therapist Dashboard are reserved for values with a real, attributable source — not open-ended manual input.
 
 ---
 
@@ -513,6 +524,10 @@ Session Timeline
 
 ---
 
+*(Therapist Dashboard's Recovery Journal is a different, more detailed component — see below.)*
+
+---
+
 ## Profile
 
 Header
@@ -565,11 +580,13 @@ Patient List
 
 ↓
 
-Patient Profile
+Patient Detail
 
 ↓
 
-Assign Programme
+Assign Programme / Progress Review
+
+Calendar and Profile (the current therapist's own profile) are reached directly from the sidebar, not through this Patient Detail flow.
 
 ---
 
@@ -654,13 +671,17 @@ Always use these terms consistently throughout the product.
 
 - Today's Focus
 - Recovery Snapshot
+- Recovery Progress (the goal progress percentage label — not "Goal Progress" or "Functional Readiness")
 - Goal Journey
 - Primary Goal
 - Secondary Goals
 - Weekly Consistency
 - Recovery Journal
+- Barrier Insights
 - Attention Status
 - Latest Therapist Update
-- No Session Recorded
+- No session recorded
+
+(Corrected to sentence case, consistent with this document's own Typography Rule "Sentence case only" and the actual Writing Style example above — an earlier draft of this list had it in title case, "No Session Recorded".)
 
 This document is the canonical implementation guide for the LinkCare design system.
