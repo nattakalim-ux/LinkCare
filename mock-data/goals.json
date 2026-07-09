@@ -4,7 +4,7 @@
     "patientId": "PT00018472",
     "type": "primary",
     "category": "Work & Productivity",
-    "title": "Return to Work",
+    "title": "Improve Work Readiness",
     "progressPercent": 63,
     "milestones": [
       {
@@ -99,7 +99,7 @@
     "patientId": "PT00041758",
     "type": "primary",
     "category": "Work & Productivity",
-    "title": "Return to Work",
+    "title": "Improve Work Readiness",
     "progressPercent": 76,
     "milestones": [
       {
@@ -140,7 +140,7 @@
     "patientId": "PT00056394",
     "type": "primary",
     "category": "Social & Community",
-    "title": "Return to Social Community",
+    "title": "Improve Social Participation",
     "progressPercent": 82,
     "milestones": [
       {
@@ -181,7 +181,7 @@
     "patientId": "PT00064827",
     "type": "primary",
     "category": "Daily Living",
-    "title": "Regain Daily Living Skills",
+    "title": "Improve Daily Living Skills",
     "progressPercent": 54,
     "milestones": [
       {

@@ -18,7 +18,7 @@
         ],
         "recoveryStage": "Moderate"
       },
-      "primaryGoal": "Return to Work",
+      "primaryGoal": "Improve Work Readiness",
       "assignedPT": "PT001",
       "assignedOT": "OT001",
       "lastSession": "2026-07-08",
@@ -91,7 +91,7 @@
         ],
         "recoveryStage": "Moderate"
       },
-      "primaryGoal": "Return to Work",
+      "primaryGoal": "Improve Work Readiness",
       "assignedPT": "PT001",
       "assignedOT": "OT002",
       "lastSession": "2026-07-08",
@@ -127,7 +127,7 @@
         ],
         "recoveryStage": "Mild"
       },
-      "primaryGoal": "Return to Social Community",
+      "primaryGoal": "Improve Social Participation",
       "assignedPT": "PT001",
       "assignedOT": "OT001",
       "lastSession": "2026-07-08",
@@ -163,7 +163,7 @@
         ],
         "recoveryStage": "Plateau"
       },
-      "primaryGoal": "Regain Daily Living Skills",
+      "primaryGoal": "Improve Daily Living Skills",
       "assignedPT": "PT001",
       "assignedOT": "OT002",
       "lastSession": "2026-07-06",
@@ -259,7 +259,7 @@
       "patientId": "PT00018472",
       "type": "primary",
       "category": "Work & Productivity",
-      "title": "Return to Work",
+      "title": "Improve Work Readiness",
       "progressPercent": 63,
       "milestones": [
         {
@@ -354,7 +354,7 @@
       "patientId": "PT00041758",
       "type": "primary",
       "category": "Work & Productivity",
-      "title": "Return to Work",
+      "title": "Improve Work Readiness",
       "progressPercent": 76,
       "milestones": [
         {
@@ -395,7 +395,7 @@
       "patientId": "PT00056394",
       "type": "primary",
       "category": "Social & Community",
-      "title": "Return to Social Community",
+      "title": "Improve Social Participation",
       "progressPercent": 82,
       "milestones": [
         {
@@ -436,7 +436,7 @@
       "patientId": "PT00064827",
       "type": "primary",
       "category": "Daily Living",
-      "title": "Regain Daily Living Skills",
+      "title": "Improve Daily Living Skills",
       "progressPercent": 54,
       "milestones": [
         {
@@ -525,7 +525,7 @@
         "Shoulder"
       ],
       "functionalGoals": [
-        "Return to Work",
+        "Improve Work Readiness",
         "Overhead Reach",
         "Steering Control"
       ],
@@ -557,7 +557,7 @@
       "functionalGoals": [
         "Reaching",
         "Daily Living",
-        "Return to Work"
+        "Improve Work Readiness"
       ],
       "equipment": [
         "None"
@@ -841,10 +841,22 @@
       "primaryGoalId": "G00018472_PRIMARY",
       "focusTitle": "Steering Control & Grip Confidence",
       "rehabDomain": "Upper Limb",
-      "exerciseIds": [
-        "EX0001",
-        "EX0002",
-        "EX0008"
+      "exercises": [
+        {
+          "exerciseId": "EX0001",
+          "sets": 3,
+          "reps": 10
+        },
+        {
+          "exerciseId": "EX0002",
+          "sets": 3,
+          "reps": 10
+        },
+        {
+          "exerciseId": "EX0008",
+          "sets": 3,
+          "reps": 15
+        }
       ],
       "schedule": {
         "frequency": "Daily",

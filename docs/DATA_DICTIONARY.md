@@ -15,6 +15,7 @@ Upper limb exercise library.
 
 ## assignments.json
 Active programme. MVP includes only Prasert.
+`exercises` is `{ exerciseId, sets, reps }[]`, not `exerciseIds: string[]` — see `API_CONTRACT.md` for the full shape and why.
 
 ## sessions.json
 Home rehab session history: status, duration, pain, fatigue, barriers, notes, goal reflection.

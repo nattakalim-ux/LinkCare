@@ -53,6 +53,20 @@ Displays background, goals, Recovery Snapshot (from , not patients.json), sessio
 Reads: `goals.json`, `exercises.json`, `assignments.json`
 For MVP, only Prasert has a detailed assignment.
 
+## assignments.json exercise shape — read this before building Start Flow
+
+`assignment.exercises` is `{ exerciseId: string, sets: number, reps: number }[]` — **not** `exerciseIds: string[]`. An earlier draft of this data used a plain ID array, but that has no way to express per-patient sets/reps overrides, which the Therapist Dashboard's Assign Programme screen requires (therapists can edit sets/reps per exercise, per patient — `exercises.json`'s `defaultParameters` are shared library defaults, not a per-patient override). This was a deliberate, documented shape change, not a data sync error.
+
+```json
+"exercises": [
+  { "exerciseId": "EX0001", "sets": 3, "reps": 10 },
+  { "exerciseId": "EX0002", "sets": 3, "reps": 10 },
+  { "exerciseId": "EX0008", "sets": 3, "reps": 15 }
+]
+```
+
+If your app's Start Flow reads `assignment.exerciseIds[]`, update it to read `assignment.exercises[].exerciseId` — and prefer `.sets`/`.reps` from that same object over `exercises.json`'s `defaultParameters`, since the per-patient values are the ones a therapist may have actually customized.
+
 ## Language Rules
 Use `consistency`, not adherence.
 Use `attentionStatus`, not risk.

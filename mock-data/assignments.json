@@ -6,10 +6,10 @@
     "primaryGoalId": "G00018472_PRIMARY",
     "focusTitle": "Steering Control & Grip Confidence",
     "rehabDomain": "Upper Limb",
-    "exerciseIds": [
-      "EX0001",
-      "EX0002",
-      "EX0008"
+    "exercises": [
+      { "exerciseId": "EX0001", "sets": 3, "reps": 10 },
+      { "exerciseId": "EX0002", "sets": 3, "reps": 10 },
+      { "exerciseId": "EX0008", "sets": 3, "reps": 15 }
     ],
     "schedule": {
       "frequency": "Daily",
