@@ -1,0 +1,220 @@
+[
+  {
+    "id": "PT00018472",
+    "displayName": "Prasert Wongwipha",
+    "avatar": "/avatars/prasert.png",
+    "age": 52,
+    "sex": "Male",
+    "occupation": "Grab Driver",
+    "location": "Nonthaburi",
+    "livingSituation": "Lives with wife and two young children",
+    "stroke": {
+      "type": "Ischemic",
+      "timeSinceStrokeMonths": 5,
+      "affectedSide": "Left",
+      "affectedDomains": [
+        "Upper Limb"
+      ],
+      "recoveryStage": "Moderate"
+    },
+    "primaryGoal": "Improve Work Readiness",
+    "assignedPT": "PT001",
+    "assignedOT": "OT001",
+    "lastSession": "2026-07-08",
+    "consistency": 71,
+    "attentionStatus": "On Track",
+    "latestUpdate": {
+      "date": "2026-07-06",
+      "therapistId": "PT001",
+      "message": "Excellent consistency this week. Continue focusing on slow, controlled movements and using your affected arm during daily activities."
+    },
+    "nextAppointment": {
+      "date": "2026-07-15",
+      "time": "09:30",
+      "location": "Siriraj Hospital",
+      "type": "Rehabilitation Review"
+    }
+  },
+  {
+    "id": "PT00029631",
+    "displayName": "Somchai Wongsawat",
+    "avatar": "/avatars/somchai.png",
+    "age": 56,
+    "sex": "Male",
+    "occupation": "Factory Worker",
+    "location": "Samut Prakan",
+    "livingSituation": "Lives alone",
+    "stroke": {
+      "type": "Ischemic",
+      "timeSinceStrokeMonths": 2,
+      "affectedSide": "Right",
+      "affectedDomains": [
+        "Upper Limb",
+        "Lower Limb"
+      ],
+      "recoveryStage": "Severe"
+    },
+    "primaryGoal": "Regain Independence in Daily Living",
+    "assignedPT": "PT001",
+    "assignedOT": "OT003",
+    "lastSession": "2026-07-07",
+    "consistency": 48,
+    "attentionStatus": "Needs Attention",
+    "latestUpdate": {
+      "date": "2026-07-05",
+      "therapistId": "PT001",
+      "message": "Focus on safe transfers and short, supported home practice sessions."
+    },
+    "nextAppointment": {
+      "date": "2026-07-12",
+      "time": "10:00",
+      "location": "Siriraj Hospital",
+      "type": "Rehabilitation Review"
+    }
+  },
+  {
+    "id": "PT00041758",
+    "displayName": "Kade Sripanthip",
+    "avatar": "/avatars/kade.png",
+    "age": 38,
+    "sex": "Female",
+    "occupation": "Bank Teller",
+    "location": "Bangkok",
+    "livingSituation": "Lives alone",
+    "stroke": {
+      "type": "Hemorrhagic",
+      "timeSinceStrokeMonths": 7,
+      "affectedSide": "Right",
+      "affectedDomains": [
+        "Upper Limb"
+      ],
+      "recoveryStage": "Moderate"
+    },
+    "primaryGoal": "Improve Work Readiness",
+    "assignedPT": "PT001",
+    "assignedOT": "OT002",
+    "lastSession": "2026-07-08",
+    "consistency": 92,
+    "attentionStatus": "Doing Well",
+    "latestUpdate": {
+      "date": "2026-07-07",
+      "therapistId": "OT002",
+      "message": "Great hand control progress. Continue practicing slow finger coordination."
+    },
+    "nextAppointment": {
+      "date": "2026-07-17",
+      "time": "13:30",
+      "location": "Siriraj Hospital",
+      "type": "Occupational Therapy Review"
+    }
+  },
+  {
+    "id": "PT00056394",
+    "displayName": "Narong Chongcharoen",
+    "avatar": "/avatars/narong.png",
+    "age": 61,
+    "sex": "Male",
+    "occupation": "Business Owner",
+    "location": "Bangkok",
+    "livingSituation": "Lives with wife, three grown children and household maids",
+    "stroke": {
+      "type": "Ischemic",
+      "timeSinceStrokeMonths": 10,
+      "affectedSide": "Left",
+      "affectedDomains": [
+        "Upper Limb"
+      ],
+      "recoveryStage": "Mild"
+    },
+    "primaryGoal": "Improve Social Participation",
+    "assignedPT": "PT001",
+    "assignedOT": "OT001",
+    "lastSession": "2026-07-08",
+    "consistency": 94,
+    "attentionStatus": "Doing Well",
+    "latestUpdate": {
+      "date": "2026-07-06",
+      "therapistId": "OT001",
+      "message": "You are progressing well. Keep using your affected arm during safe everyday tasks."
+    },
+    "nextAppointment": {
+      "date": "2026-07-21",
+      "time": "11:00",
+      "location": "Siriraj Hospital",
+      "type": "Rehabilitation Review"
+    }
+  },
+  {
+    "id": "PT00064827",
+    "displayName": "Suda Rattanakul",
+    "avatar": "/avatars/suda.png",
+    "age": 72,
+    "sex": "Female",
+    "occupation": "Retiree",
+    "location": "Nakhon Pathom",
+    "livingSituation": "Lives with extended family",
+    "stroke": {
+      "type": "Ischemic",
+      "timeSinceStrokeMonths": 18,
+      "affectedSide": "Left",
+      "affectedDomains": [
+        "Upper Limb"
+      ],
+      "recoveryStage": "Plateau"
+    },
+    "primaryGoal": "Improve Daily Living Skills",
+    "assignedPT": "PT001",
+    "assignedOT": "OT002",
+    "lastSession": "2026-07-06",
+    "consistency": 67,
+    "attentionStatus": "On Track",
+    "latestUpdate": {
+      "date": "2026-07-05",
+      "therapistId": "OT002",
+      "message": "Continue hand coordination practice. We will review cooking-related tasks next session."
+    },
+    "nextAppointment": {
+      "date": "2026-07-18",
+      "time": "09:00",
+      "location": "Siriraj Hospital",
+      "type": "Occupational Therapy Review"
+    }
+  },
+  {
+    "id": "PT00075183",
+    "displayName": "Daranee Limpikul",
+    "avatar": "/avatars/daranee.png",
+    "age": 64,
+    "sex": "Female",
+    "occupation": "Former Corporate Executive",
+    "location": "Bangkok",
+    "livingSituation": "Lives at home with her husband, children and a full-time caregiver",
+    "stroke": {
+      "type": "Ischemic",
+      "timeSinceStrokeMonths": 12,
+      "affectedSide": "Right",
+      "affectedDomains": [
+        "Upper Limb",
+        "Lower Limb"
+      ],
+      "recoveryStage": "Severe"
+    },
+    "primaryGoal": "Improve Functional Mobility",
+    "assignedPT": "PT001",
+    "assignedOT": "OT003",
+    "lastSession": "2026-07-08",
+    "consistency": 98,
+    "attentionStatus": "On Track",
+    "latestUpdate": {
+      "date": "2026-07-08",
+      "therapistId": "PT001",
+      "message": "Excellent commitment. Continue supported mobility practice and avoid rushing transfers."
+    },
+    "nextAppointment": {
+      "date": "2026-07-10",
+      "time": "14:00",
+      "location": "Siriraj Hospital",
+      "type": "Physical Therapy Review"
+    }
+  }
+]
