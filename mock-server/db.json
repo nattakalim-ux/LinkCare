@@ -18,7 +18,7 @@
         ],
         "recoveryStage": "Moderate"
       },
-      "primaryGoal": "Return to Work",
+      "primaryGoal": "Improve Work Readiness",
       "assignedPT": "PT001",
       "assignedOT": "OT001",
       "lastSession": "2026-07-08",
@@ -55,7 +55,7 @@
         ],
         "recoveryStage": "Severe"
       },
-      "primaryGoal": "Regain Independence in Daily Living",
+      "primaryGoal": "Improve Daily Living Skills",
       "assignedPT": "PT001",
       "assignedOT": "OT003",
       "lastSession": "2026-07-07",
@@ -91,7 +91,7 @@
         ],
         "recoveryStage": "Moderate"
       },
-      "primaryGoal": "Return to Work",
+      "primaryGoal": "Improve Work Readiness",
       "assignedPT": "PT001",
       "assignedOT": "OT002",
       "lastSession": "2026-07-08",
@@ -127,7 +127,7 @@
         ],
         "recoveryStage": "Mild"
       },
-      "primaryGoal": "Return to Social Community",
+      "primaryGoal": "Improve Social Participation",
       "assignedPT": "PT001",
       "assignedOT": "OT001",
       "lastSession": "2026-07-08",
@@ -163,7 +163,7 @@
         ],
         "recoveryStage": "Plateau"
       },
-      "primaryGoal": "Regain Daily Living Skills",
+      "primaryGoal": "Improve Daily Living Skills",
       "assignedPT": "PT001",
       "assignedOT": "OT002",
       "lastSession": "2026-07-06",
@@ -259,7 +259,7 @@
       "patientId": "PT00018472",
       "type": "primary",
       "category": "Work & Productivity",
-      "title": "Return to Work",
+      "title": "Improve Work Readiness",
       "progressPercent": 63,
       "milestones": [
         {
@@ -281,6 +281,28 @@
           "id": "M0004",
           "title": "Complete a short supervised drive",
           "status": "locked"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-05-13",
+          "progressPercent": 29
+        },
+        {
+          "date": "2026-05-27",
+          "progressPercent": 46
+        },
+        {
+          "date": "2026-06-10",
+          "progressPercent": 50
+        },
+        {
+          "date": "2026-06-24",
+          "progressPercent": 58
+        },
+        {
+          "date": "2026-07-08",
+          "progressPercent": 63
         }
       ]
     },
@@ -313,7 +335,7 @@
       "patientId": "PT00029631",
       "type": "primary",
       "category": "Independence",
-      "title": "Regain Independence in Daily Living",
+      "title": "Improve Daily Living Skills",
       "progressPercent": 34,
       "milestones": [
         {
@@ -330,6 +352,28 @@
           "id": "M0007",
           "title": "Prepare a simple meal independently",
           "status": "locked"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-05-12",
+          "progressPercent": 13
+        },
+        {
+          "date": "2026-05-26",
+          "progressPercent": 18
+        },
+        {
+          "date": "2026-06-09",
+          "progressPercent": 23
+        },
+        {
+          "date": "2026-06-23",
+          "progressPercent": 27
+        },
+        {
+          "date": "2026-07-07",
+          "progressPercent": 34
         }
       ]
     },
@@ -354,7 +398,7 @@
       "patientId": "PT00041758",
       "type": "primary",
       "category": "Work & Productivity",
-      "title": "Return to Work",
+      "title": "Improve Work Readiness",
       "progressPercent": 76,
       "milestones": [
         {
@@ -371,6 +415,28 @@
           "id": "M0010",
           "title": "Use a computer and phone comfortably",
           "status": "in_progress"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-05-13",
+          "progressPercent": 39
+        },
+        {
+          "date": "2026-05-27",
+          "progressPercent": 57
+        },
+        {
+          "date": "2026-06-10",
+          "progressPercent": 64
+        },
+        {
+          "date": "2026-06-24",
+          "progressPercent": 70
+        },
+        {
+          "date": "2026-07-08",
+          "progressPercent": 76
         }
       ]
     },
@@ -395,7 +461,7 @@
       "patientId": "PT00056394",
       "type": "primary",
       "category": "Social & Community",
-      "title": "Return to Social Community",
+      "title": "Improve Social Participation",
       "progressPercent": 82,
       "milestones": [
         {
@@ -412,6 +478,28 @@
           "id": "M0013",
           "title": "Return to regular community activities",
           "status": "in_progress"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-05-13",
+          "progressPercent": 52
+        },
+        {
+          "date": "2026-05-27",
+          "progressPercent": 65
+        },
+        {
+          "date": "2026-06-10",
+          "progressPercent": 76
+        },
+        {
+          "date": "2026-06-24",
+          "progressPercent": 78
+        },
+        {
+          "date": "2026-07-08",
+          "progressPercent": 82
         }
       ]
     },
@@ -436,7 +524,7 @@
       "patientId": "PT00064827",
       "type": "primary",
       "category": "Daily Living",
-      "title": "Regain Daily Living Skills",
+      "title": "Improve Daily Living Skills",
       "progressPercent": 54,
       "milestones": [
         {
@@ -453,6 +541,28 @@
           "id": "M0016",
           "title": "Cook a simple meal with family",
           "status": "locked"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-05-11",
+          "progressPercent": 31
+        },
+        {
+          "date": "2026-05-25",
+          "progressPercent": 35
+        },
+        {
+          "date": "2026-06-08",
+          "progressPercent": 44
+        },
+        {
+          "date": "2026-06-22",
+          "progressPercent": 52
+        },
+        {
+          "date": "2026-07-06",
+          "progressPercent": 54
         }
       ]
     },
@@ -495,6 +605,28 @@
           "title": "Walk short distances independently",
           "status": "locked"
         }
+      ],
+      "history": [
+        {
+          "date": "2026-05-13",
+          "progressPercent": 21
+        },
+        {
+          "date": "2026-05-27",
+          "progressPercent": 33
+        },
+        {
+          "date": "2026-06-10",
+          "progressPercent": 41
+        },
+        {
+          "date": "2026-06-24",
+          "progressPercent": 42
+        },
+        {
+          "date": "2026-07-08",
+          "progressPercent": 46
+        }
       ]
     },
     {
@@ -525,7 +657,7 @@
         "Shoulder"
       ],
       "functionalGoals": [
-        "Return to Work",
+        "Improve Work Readiness",
         "Overhead Reach",
         "Steering Control"
       ],
@@ -557,7 +689,7 @@
       "functionalGoals": [
         "Reaching",
         "Daily Living",
-        "Return to Work"
+        "Improve Work Readiness"
       ],
       "equipment": [
         "None"
@@ -841,10 +973,22 @@
       "primaryGoalId": "G00018472_PRIMARY",
       "focusTitle": "Steering Control & Grip Confidence",
       "rehabDomain": "Upper Limb",
-      "exerciseIds": [
-        "EX0001",
-        "EX0002",
-        "EX0008"
+      "exercises": [
+        {
+          "exerciseId": "EX0001",
+          "sets": 3,
+          "reps": 10
+        },
+        {
+          "exerciseId": "EX0002",
+          "sets": 3,
+          "reps": 10
+        },
+        {
+          "exerciseId": "EX0008",
+          "sets": 3,
+          "reps": 15
+        }
       ],
       "schedule": {
         "frequency": "Daily",
@@ -862,8 +1006,8 @@
       "date": "2026-07-08",
       "status": "completed",
       "durationMinutes": 20,
-      "exerciseCount": 3,
-      "totalReps": 105,
+      "exerciseCount": 2,
+      "totalReps": 60,
       "difficulty": "moderate",
       "painScore": 3,
       "fatigueScore": 5,
@@ -872,7 +1016,11 @@
       ],
       "noteToTherapist": "My shoulder felt tired near the end.",
       "goalReflection": "definitely",
-      "sharedWithTherapist": true
+      "sharedWithTherapist": true,
+      "exercisesCompleted": [
+        "Shoulder Raise",
+        "Forward Reach"
+      ]
     },
     {
       "id": "S00018472_20260707",
@@ -887,11 +1035,12 @@
       "painScore": null,
       "fatigueScore": null,
       "barriers": [
-        "Too busy"
+        "Pain"
       ],
-      "noteToTherapist": "",
+      "noteToTherapist": "My shoulder was hurting too much to try today.",
       "goalReflection": null,
-      "sharedWithTherapist": true
+      "sharedWithTherapist": true,
+      "exercisesCompleted": []
     },
     {
       "id": "S00018472_20260706",
@@ -908,7 +1057,12 @@
       "barriers": [],
       "noteToTherapist": "",
       "goalReflection": "definitely",
-      "sharedWithTherapist": true
+      "sharedWithTherapist": true,
+      "exercisesCompleted": [
+        "Shoulder Raise",
+        "Forward Reach",
+        "Hand Open & Close"
+      ]
     },
     {
       "id": "S00018472_20260705",
@@ -917,8 +1071,8 @@
       "date": "2026-07-05",
       "status": "completed",
       "durationMinutes": 22,
-      "exerciseCount": 3,
-      "totalReps": 100,
+      "exerciseCount": 2,
+      "totalReps": 60,
       "difficulty": "moderate",
       "painScore": 3,
       "fatigueScore": 4,
@@ -927,7 +1081,11 @@
       ],
       "noteToTherapist": "Forward reach was harder than usual.",
       "goalReflection": "a_little",
-      "sharedWithTherapist": true
+      "sharedWithTherapist": true,
+      "exercisesCompleted": [
+        "Shoulder Raise",
+        "Forward Reach"
+      ]
     },
     {
       "id": "S00018472_20260704",
@@ -942,11 +1100,12 @@
       "painScore": null,
       "fatigueScore": null,
       "barriers": [
-        "Forgot"
+        "Dizziness or balance concern"
       ],
-      "noteToTherapist": "",
+      "noteToTherapist": "Felt dizzy when I tried to sit up for the session.",
       "goalReflection": null,
-      "sharedWithTherapist": true
+      "sharedWithTherapist": true,
+      "exercisesCompleted": []
     },
     {
       "id": "S00018472_20260703",
@@ -963,7 +1122,12 @@
       "barriers": [],
       "noteToTherapist": "Hand exercise felt easier today.",
       "goalReflection": "definitely",
-      "sharedWithTherapist": true
+      "sharedWithTherapist": true,
+      "exercisesCompleted": [
+        "Shoulder Raise",
+        "Forward Reach",
+        "Hand Open & Close"
+      ]
     },
     {
       "id": "S00018472_20260702",
@@ -980,11 +1144,17 @@
       "barriers": [],
       "noteToTherapist": "",
       "goalReflection": "a_little",
-      "sharedWithTherapist": true
+      "sharedWithTherapist": true,
+      "exercisesCompleted": [
+        "Shoulder Raise",
+        "Forward Reach",
+        "Hand Open & Close"
+      ]
     }
   ],
   "recoverySnapshots": [
     {
+      "id": "PT00018472",
       "patientId": "PT00018472",
       "lastUpdated": "2026-07-08",
       "shoulder": {
@@ -1002,9 +1172,47 @@
       "fingers": {
         "progressPercent": 41,
         "trendPercent": 6
-      }
+      },
+      "history": [
+        {
+          "date": "2026-05-13",
+          "shoulder": 47,
+          "elbow": 58,
+          "hand": 30,
+          "fingers": 14
+        },
+        {
+          "date": "2026-05-27",
+          "shoulder": 57,
+          "elbow": 69,
+          "hand": 36,
+          "fingers": 28
+        },
+        {
+          "date": "2026-06-10",
+          "shoulder": 67,
+          "elbow": 72,
+          "hand": 47,
+          "fingers": 39
+        },
+        {
+          "date": "2026-06-24",
+          "shoulder": 69,
+          "elbow": 75,
+          "hand": 49,
+          "fingers": 39
+        },
+        {
+          "date": "2026-07-08",
+          "shoulder": 68,
+          "elbow": 74,
+          "hand": 52,
+          "fingers": 41
+        }
+      ]
     },
     {
+      "id": "PT00029631",
       "patientId": "PT00029631",
       "lastUpdated": "2026-07-07",
       "shoulder": {
@@ -1022,9 +1230,47 @@
       "fingers": {
         "progressPercent": 19,
         "trendPercent": 0
-      }
+      },
+      "history": [
+        {
+          "date": "2026-05-12",
+          "shoulder": 3,
+          "elbow": 33,
+          "hand": 3,
+          "fingers": 3
+        },
+        {
+          "date": "2026-05-26",
+          "shoulder": 9,
+          "elbow": 38,
+          "hand": 15,
+          "fingers": 3
+        },
+        {
+          "date": "2026-06-09",
+          "shoulder": 20,
+          "elbow": 40,
+          "hand": 24,
+          "fingers": 13
+        },
+        {
+          "date": "2026-06-23",
+          "shoulder": 25,
+          "elbow": 43,
+          "hand": 26,
+          "fingers": 15
+        },
+        {
+          "date": "2026-07-07",
+          "shoulder": 31,
+          "elbow": 42,
+          "hand": 28,
+          "fingers": 19
+        }
+      ]
     },
     {
+      "id": "PT00041758",
       "patientId": "PT00041758",
       "lastUpdated": "2026-07-08",
       "shoulder": {
@@ -1042,9 +1288,47 @@
       "fingers": {
         "progressPercent": 58,
         "trendPercent": 0
-      }
+      },
+      "history": [
+        {
+          "date": "2026-05-13",
+          "shoulder": 52,
+          "elbow": 54,
+          "hand": 35,
+          "fingers": 41
+        },
+        {
+          "date": "2026-05-27",
+          "shoulder": 63,
+          "elbow": 60,
+          "hand": 49,
+          "fingers": 47
+        },
+        {
+          "date": "2026-06-10",
+          "shoulder": 67,
+          "elbow": 69,
+          "hand": 54,
+          "fingers": 55
+        },
+        {
+          "date": "2026-06-24",
+          "shoulder": 68,
+          "elbow": 74,
+          "hand": 62,
+          "fingers": 60
+        },
+        {
+          "date": "2026-07-08",
+          "shoulder": 73,
+          "elbow": 76,
+          "hand": 63,
+          "fingers": 58
+        }
+      ]
     },
     {
+      "id": "PT00056394",
       "patientId": "PT00056394",
       "lastUpdated": "2026-07-08",
       "shoulder": {
@@ -1062,9 +1346,47 @@
       "fingers": {
         "progressPercent": 74,
         "trendPercent": 0
-      }
+      },
+      "history": [
+        {
+          "date": "2026-05-13",
+          "shoulder": 56,
+          "elbow": 62,
+          "hand": 56,
+          "fingers": 52
+        },
+        {
+          "date": "2026-05-27",
+          "shoulder": 68,
+          "elbow": 73,
+          "hand": 64,
+          "fingers": 61
+        },
+        {
+          "date": "2026-06-10",
+          "shoulder": 75,
+          "elbow": 84,
+          "hand": 71,
+          "fingers": 64
+        },
+        {
+          "date": "2026-06-24",
+          "shoulder": 84,
+          "elbow": 87,
+          "hand": 81,
+          "fingers": 71
+        },
+        {
+          "date": "2026-07-08",
+          "shoulder": 88,
+          "elbow": 90,
+          "hand": 81,
+          "fingers": 74
+        }
+      ]
     },
     {
+      "id": "PT00064827",
       "patientId": "PT00064827",
       "lastUpdated": "2026-07-06",
       "shoulder": {
@@ -1082,9 +1404,47 @@
       "fingers": {
         "progressPercent": 38,
         "trendPercent": 0
-      }
+      },
+      "history": [
+        {
+          "date": "2026-05-11",
+          "shoulder": 44,
+          "elbow": 43,
+          "hand": 23,
+          "fingers": 21
+        },
+        {
+          "date": "2026-05-25",
+          "shoulder": 51,
+          "elbow": 54,
+          "hand": 38,
+          "fingers": 27
+        },
+        {
+          "date": "2026-06-08",
+          "shoulder": 64,
+          "elbow": 62,
+          "hand": 42,
+          "fingers": 34
+        },
+        {
+          "date": "2026-06-22",
+          "shoulder": 65,
+          "elbow": 65,
+          "hand": 49,
+          "fingers": 35
+        },
+        {
+          "date": "2026-07-06",
+          "shoulder": 71,
+          "elbow": 69,
+          "hand": 49,
+          "fingers": 38
+        }
+      ]
     },
     {
+      "id": "PT00075183",
       "patientId": "PT00075183",
       "lastUpdated": "2026-07-08",
       "shoulder": {
@@ -1102,7 +1462,44 @@
       "fingers": {
         "progressPercent": 18,
         "trendPercent": 0
-      }
+      },
+      "history": [
+        {
+          "date": "2026-05-13",
+          "shoulder": 10,
+          "elbow": 18,
+          "hand": 3,
+          "fingers": 3
+        },
+        {
+          "date": "2026-05-27",
+          "shoulder": 19,
+          "elbow": 28,
+          "hand": 11,
+          "fingers": 7
+        },
+        {
+          "date": "2026-06-10",
+          "shoulder": 25,
+          "elbow": 38,
+          "hand": 21,
+          "fingers": 13
+        },
+        {
+          "date": "2026-06-24",
+          "shoulder": 32,
+          "elbow": 45,
+          "hand": 26,
+          "fingers": 17
+        },
+        {
+          "date": "2026-07-08",
+          "shoulder": 35,
+          "elbow": 44,
+          "hand": 27,
+          "fingers": 18
+        }
+      ]
     }
   ]
 }

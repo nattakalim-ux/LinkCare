@@ -17,7 +17,7 @@
       ],
       "recoveryStage": "Moderate"
     },
-    "primaryGoal": "Return to Work",
+    "primaryGoal": "Improve Work Readiness",
     "assignedPT": "PT001",
     "assignedOT": "OT001",
     "lastSession": "2026-07-08",
@@ -54,7 +54,7 @@
       ],
       "recoveryStage": "Severe"
     },
-    "primaryGoal": "Regain Independence in Daily Living",
+    "primaryGoal": "Improve Daily Living Skills",
     "assignedPT": "PT001",
     "assignedOT": "OT003",
     "lastSession": "2026-07-07",
@@ -90,7 +90,7 @@
       ],
       "recoveryStage": "Moderate"
     },
-    "primaryGoal": "Return to Work",
+    "primaryGoal": "Improve Work Readiness",
     "assignedPT": "PT001",
     "assignedOT": "OT002",
     "lastSession": "2026-07-08",
@@ -126,7 +126,7 @@
       ],
       "recoveryStage": "Mild"
     },
-    "primaryGoal": "Return to Social Community",
+    "primaryGoal": "Improve Social Participation",
     "assignedPT": "PT001",
     "assignedOT": "OT001",
     "lastSession": "2026-07-08",
@@ -162,7 +162,7 @@
       ],
       "recoveryStage": "Plateau"
     },
-    "primaryGoal": "Regain Daily Living Skills",
+    "primaryGoal": "Improve Daily Living Skills",
     "assignedPT": "PT001",
     "assignedOT": "OT002",
     "lastSession": "2026-07-06",

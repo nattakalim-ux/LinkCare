@@ -6,8 +6,8 @@
     "date": "2026-07-08",
     "status": "completed",
     "durationMinutes": 20,
-    "exerciseCount": 3,
-    "totalReps": 105,
+    "exerciseCount": 2,
+    "totalReps": 60,
     "difficulty": "moderate",
     "painScore": 3,
     "fatigueScore": 5,
@@ -16,7 +16,11 @@
     ],
     "noteToTherapist": "My shoulder felt tired near the end.",
     "goalReflection": "definitely",
-    "sharedWithTherapist": true
+    "sharedWithTherapist": true,
+    "exercisesCompleted": [
+      "Shoulder Raise",
+      "Forward Reach"
+    ]
   },
   {
     "id": "S00018472_20260707",
@@ -31,11 +35,12 @@
     "painScore": null,
     "fatigueScore": null,
     "barriers": [
-      "Too busy"
+      "Pain"
     ],
-    "noteToTherapist": "",
+    "noteToTherapist": "My shoulder was hurting too much to try today.",
     "goalReflection": null,
-    "sharedWithTherapist": true
+    "sharedWithTherapist": true,
+    "exercisesCompleted": []
   },
   {
     "id": "S00018472_20260706",
@@ -52,7 +57,12 @@
     "barriers": [],
     "noteToTherapist": "",
     "goalReflection": "definitely",
-    "sharedWithTherapist": true
+    "sharedWithTherapist": true,
+    "exercisesCompleted": [
+      "Shoulder Raise",
+      "Forward Reach",
+      "Hand Open & Close"
+    ]
   },
   {
     "id": "S00018472_20260705",
@@ -61,8 +71,8 @@
     "date": "2026-07-05",
     "status": "completed",
     "durationMinutes": 22,
-    "exerciseCount": 3,
-    "totalReps": 100,
+    "exerciseCount": 2,
+    "totalReps": 60,
     "difficulty": "moderate",
     "painScore": 3,
     "fatigueScore": 4,
@@ -71,7 +81,11 @@
     ],
     "noteToTherapist": "Forward reach was harder than usual.",
     "goalReflection": "a_little",
-    "sharedWithTherapist": true
+    "sharedWithTherapist": true,
+    "exercisesCompleted": [
+      "Shoulder Raise",
+      "Forward Reach"
+    ]
   },
   {
     "id": "S00018472_20260704",
@@ -86,11 +100,12 @@
     "painScore": null,
     "fatigueScore": null,
     "barriers": [
-      "Forgot"
+      "Dizziness or balance concern"
     ],
-    "noteToTherapist": "",
+    "noteToTherapist": "Felt dizzy when I tried to sit up for the session.",
     "goalReflection": null,
-    "sharedWithTherapist": true
+    "sharedWithTherapist": true,
+    "exercisesCompleted": []
   },
   {
     "id": "S00018472_20260703",
@@ -107,7 +122,12 @@
     "barriers": [],
     "noteToTherapist": "Hand exercise felt easier today.",
     "goalReflection": "definitely",
-    "sharedWithTherapist": true
+    "sharedWithTherapist": true,
+    "exercisesCompleted": [
+      "Shoulder Raise",
+      "Forward Reach",
+      "Hand Open & Close"
+    ]
   },
   {
     "id": "S00018472_20260702",
@@ -124,6 +144,11 @@
     "barriers": [],
     "noteToTherapist": "",
     "goalReflection": "a_little",
-    "sharedWithTherapist": true
+    "sharedWithTherapist": true,
+    "exercisesCompleted": [
+      "Shoulder Raise",
+      "Forward Reach",
+      "Hand Open & Close"
+    ]
   }
 ]

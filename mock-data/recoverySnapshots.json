@@ -1,5 +1,6 @@
 [
   {
+    "id": "PT00018472",
     "patientId": "PT00018472",
     "lastUpdated": "2026-07-08",
     "shoulder": {
@@ -17,9 +18,47 @@
     "fingers": {
       "progressPercent": 41,
       "trendPercent": 6
-    }
+    },
+    "history": [
+      {
+        "date": "2026-05-13",
+        "shoulder": 47,
+        "elbow": 58,
+        "hand": 30,
+        "fingers": 14
+      },
+      {
+        "date": "2026-05-27",
+        "shoulder": 57,
+        "elbow": 69,
+        "hand": 36,
+        "fingers": 28
+      },
+      {
+        "date": "2026-06-10",
+        "shoulder": 67,
+        "elbow": 72,
+        "hand": 47,
+        "fingers": 39
+      },
+      {
+        "date": "2026-06-24",
+        "shoulder": 69,
+        "elbow": 75,
+        "hand": 49,
+        "fingers": 39
+      },
+      {
+        "date": "2026-07-08",
+        "shoulder": 68,
+        "elbow": 74,
+        "hand": 52,
+        "fingers": 41
+      }
+    ]
   },
   {
+    "id": "PT00029631",
     "patientId": "PT00029631",
     "lastUpdated": "2026-07-07",
     "shoulder": {
@@ -37,9 +76,47 @@
     "fingers": {
       "progressPercent": 19,
       "trendPercent": 0
-    }
+    },
+    "history": [
+      {
+        "date": "2026-05-12",
+        "shoulder": 3,
+        "elbow": 33,
+        "hand": 3,
+        "fingers": 3
+      },
+      {
+        "date": "2026-05-26",
+        "shoulder": 9,
+        "elbow": 38,
+        "hand": 15,
+        "fingers": 3
+      },
+      {
+        "date": "2026-06-09",
+        "shoulder": 20,
+        "elbow": 40,
+        "hand": 24,
+        "fingers": 13
+      },
+      {
+        "date": "2026-06-23",
+        "shoulder": 25,
+        "elbow": 43,
+        "hand": 26,
+        "fingers": 15
+      },
+      {
+        "date": "2026-07-07",
+        "shoulder": 31,
+        "elbow": 42,
+        "hand": 28,
+        "fingers": 19
+      }
+    ]
   },
   {
+    "id": "PT00041758",
     "patientId": "PT00041758",
     "lastUpdated": "2026-07-08",
     "shoulder": {
@@ -57,9 +134,47 @@
     "fingers": {
       "progressPercent": 58,
       "trendPercent": 0
-    }
+    },
+    "history": [
+      {
+        "date": "2026-05-13",
+        "shoulder": 52,
+        "elbow": 54,
+        "hand": 35,
+        "fingers": 41
+      },
+      {
+        "date": "2026-05-27",
+        "shoulder": 63,
+        "elbow": 60,
+        "hand": 49,
+        "fingers": 47
+      },
+      {
+        "date": "2026-06-10",
+        "shoulder": 67,
+        "elbow": 69,
+        "hand": 54,
+        "fingers": 55
+      },
+      {
+        "date": "2026-06-24",
+        "shoulder": 68,
+        "elbow": 74,
+        "hand": 62,
+        "fingers": 60
+      },
+      {
+        "date": "2026-07-08",
+        "shoulder": 73,
+        "elbow": 76,
+        "hand": 63,
+        "fingers": 58
+      }
+    ]
   },
   {
+    "id": "PT00056394",
     "patientId": "PT00056394",
     "lastUpdated": "2026-07-08",
     "shoulder": {
@@ -77,9 +192,47 @@
     "fingers": {
       "progressPercent": 74,
       "trendPercent": 0
-    }
+    },
+    "history": [
+      {
+        "date": "2026-05-13",
+        "shoulder": 56,
+        "elbow": 62,
+        "hand": 56,
+        "fingers": 52
+      },
+      {
+        "date": "2026-05-27",
+        "shoulder": 68,
+        "elbow": 73,
+        "hand": 64,
+        "fingers": 61
+      },
+      {
+        "date": "2026-06-10",
+        "shoulder": 75,
+        "elbow": 84,
+        "hand": 71,
+        "fingers": 64
+      },
+      {
+        "date": "2026-06-24",
+        "shoulder": 84,
+        "elbow": 87,
+        "hand": 81,
+        "fingers": 71
+      },
+      {
+        "date": "2026-07-08",
+        "shoulder": 88,
+        "elbow": 90,
+        "hand": 81,
+        "fingers": 74
+      }
+    ]
   },
   {
+    "id": "PT00064827",
     "patientId": "PT00064827",
     "lastUpdated": "2026-07-06",
     "shoulder": {
@@ -97,9 +250,47 @@
     "fingers": {
       "progressPercent": 38,
       "trendPercent": 0
-    }
+    },
+    "history": [
+      {
+        "date": "2026-05-11",
+        "shoulder": 44,
+        "elbow": 43,
+        "hand": 23,
+        "fingers": 21
+      },
+      {
+        "date": "2026-05-25",
+        "shoulder": 51,
+        "elbow": 54,
+        "hand": 38,
+        "fingers": 27
+      },
+      {
+        "date": "2026-06-08",
+        "shoulder": 64,
+        "elbow": 62,
+        "hand": 42,
+        "fingers": 34
+      },
+      {
+        "date": "2026-06-22",
+        "shoulder": 65,
+        "elbow": 65,
+        "hand": 49,
+        "fingers": 35
+      },
+      {
+        "date": "2026-07-06",
+        "shoulder": 71,
+        "elbow": 69,
+        "hand": 49,
+        "fingers": 38
+      }
+    ]
   },
   {
+    "id": "PT00075183",
     "patientId": "PT00075183",
     "lastUpdated": "2026-07-08",
     "shoulder": {
@@ -117,6 +308,43 @@
     "fingers": {
       "progressPercent": 18,
       "trendPercent": 0
-    }
+    },
+    "history": [
+      {
+        "date": "2026-05-13",
+        "shoulder": 10,
+        "elbow": 18,
+        "hand": 3,
+        "fingers": 3
+      },
+      {
+        "date": "2026-05-27",
+        "shoulder": 19,
+        "elbow": 28,
+        "hand": 11,
+        "fingers": 7
+      },
+      {
+        "date": "2026-06-10",
+        "shoulder": 25,
+        "elbow": 38,
+        "hand": 21,
+        "fingers": 13
+      },
+      {
+        "date": "2026-06-24",
+        "shoulder": 32,
+        "elbow": 45,
+        "hand": 26,
+        "fingers": 17
+      },
+      {
+        "date": "2026-07-08",
+        "shoulder": 35,
+        "elbow": 44,
+        "hand": 27,
+        "fingers": 18
+      }
+    ]
   }
 ]
