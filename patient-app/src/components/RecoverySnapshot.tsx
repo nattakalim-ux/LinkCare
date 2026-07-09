@@ -23,6 +23,11 @@ const MARKERS: {
 
 const LABEL_X = 84;
 
+function formatDDMMYYYY(isoDate: string): string {
+  const [year, month, day] = isoDate.split("-");
+  return `${day}/${month}/${year}`;
+}
+
 export function RecoverySnapshot({ snapshot }: { snapshot: RecoverySnapshotData }) {
   return (
     <Card>
@@ -90,7 +95,7 @@ export function RecoverySnapshot({ snapshot }: { snapshot: RecoverySnapshotData 
       </div>
 
       <p className="mt-2 text-caption text-slate">
-        Updated at your last clinic review ({snapshot.lastUpdated}).
+        Last updated: {formatDDMMYYYY(snapshot.lastUpdated)}
       </p>
     </Card>
   );
