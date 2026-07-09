@@ -169,6 +169,7 @@ export function StartFlowProvider({ children }: { children: React.ReactNode }) {
         status: "completed",
         durationMinutes: totals.totalMinutes,
         exerciseCount: data.exercises.length,
+        exercisesCompleted: data.exercises.map((ex) => ex.name),
         totalReps: totals.totalReps,
         difficulty: finalCapture.difficulty,
         painScore: finalCapture.painScore,

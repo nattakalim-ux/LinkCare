@@ -123,6 +123,7 @@ export interface Session {
   status: "completed" | "not_completed";
   durationMinutes: number;
   exerciseCount: number;
+  exercisesCompleted: string[];
   totalReps: number;
   difficulty: Difficulty | null;
   painScore: number | null;

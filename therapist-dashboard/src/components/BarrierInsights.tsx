@@ -7,7 +7,7 @@ export default function BarrierInsights({ sessions }: { sessions: Session[] }) {
   const painCounts = new Map<string, number>();
 
   for (const s of sessions) {
-    for (const barrier of s.barriers) {
+    for (const barrier of s.barriers ?? []) {
       counts.set(barrier, (counts.get(barrier) ?? 0) + 1);
       if (s.painScore !== null) {
         painSums.set(barrier, (painSums.get(barrier) ?? 0) + s.painScore);

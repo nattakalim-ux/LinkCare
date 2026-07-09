@@ -34,7 +34,7 @@ export default function RecoveryJournal({ sessions }: { sessions: Session[] }) {
               {s.noteToTherapist && (
                 <p className={styles.note}>&ldquo;{s.noteToTherapist}&rdquo;</p>
               )}
-              {s.barriers.length > 0 && (
+              {(s.barriers ?? []).length > 0 && (
                 <span className={styles.barrierTag}>{s.barriers.join(", ")}</span>
               )}
             </div>
@@ -54,7 +54,7 @@ export default function RecoveryJournal({ sessions }: { sessions: Session[] }) {
                   </>
                 )}
               </div>
-              {s.exercisesCompleted.length > 0 && (
+              {(s.exercisesCompleted ?? []).length > 0 && (
                 <div className={styles.exercises}>
                   {s.exercisesCompleted.length} exercise
                   {s.exercisesCompleted.length === 1 ? "" : "s"}:{" "}
@@ -64,7 +64,7 @@ export default function RecoveryJournal({ sessions }: { sessions: Session[] }) {
               {s.noteToTherapist && (
                 <p className={styles.note}>&ldquo;{s.noteToTherapist}&rdquo;</p>
               )}
-              {s.barriers.length > 0 && (
+              {(s.barriers ?? []).length > 0 && (
                 <span className={styles.barrierTag}>{s.barriers.join(", ")}</span>
               )}
             </div>
