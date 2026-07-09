@@ -1,0 +1,1108 @@
+{
+  "patients": [
+    {
+      "id": "PT00018472",
+      "displayName": "Prasert Wongwipha",
+      "avatar": "/avatars/prasert.png",
+      "age": 52,
+      "sex": "Male",
+      "occupation": "Grab Driver",
+      "location": "Nonthaburi",
+      "livingSituation": "Lives with wife and two young children",
+      "stroke": {
+        "type": "Ischemic",
+        "timeSinceStrokeMonths": 5,
+        "affectedSide": "Left",
+        "affectedDomains": [
+          "Upper Limb"
+        ],
+        "recoveryStage": "Moderate"
+      },
+      "primaryGoal": "Return to Work",
+      "assignedPT": "PT001",
+      "assignedOT": "OT001",
+      "lastSession": "2026-07-08",
+      "consistency": 71,
+      "attentionStatus": "On Track",
+      "latestUpdate": {
+        "date": "2026-07-06",
+        "therapistId": "PT001",
+        "message": "Excellent consistency this week. Continue focusing on slow, controlled movements and using your affected arm during daily activities."
+      },
+      "nextAppointment": {
+        "date": "2026-07-15",
+        "time": "09:30",
+        "location": "Siriraj Hospital",
+        "type": "Rehabilitation Review"
+      }
+    },
+    {
+      "id": "PT00029631",
+      "displayName": "Somchai Wongsawat",
+      "avatar": "/avatars/somchai.png",
+      "age": 56,
+      "sex": "Male",
+      "occupation": "Factory Worker",
+      "location": "Samut Prakan",
+      "livingSituation": "Lives alone",
+      "stroke": {
+        "type": "Ischemic",
+        "timeSinceStrokeMonths": 2,
+        "affectedSide": "Right",
+        "affectedDomains": [
+          "Upper Limb",
+          "Lower Limb"
+        ],
+        "recoveryStage": "Severe"
+      },
+      "primaryGoal": "Regain Independence in Daily Living",
+      "assignedPT": "PT001",
+      "assignedOT": "OT003",
+      "lastSession": "2026-07-07",
+      "consistency": 48,
+      "attentionStatus": "Needs Attention",
+      "latestUpdate": {
+        "date": "2026-07-05",
+        "therapistId": "PT001",
+        "message": "Focus on safe transfers and short, supported home practice sessions."
+      },
+      "nextAppointment": {
+        "date": "2026-07-12",
+        "time": "10:00",
+        "location": "Siriraj Hospital",
+        "type": "Rehabilitation Review"
+      }
+    },
+    {
+      "id": "PT00041758",
+      "displayName": "Kade Sripanthip",
+      "avatar": "/avatars/kade.png",
+      "age": 38,
+      "sex": "Female",
+      "occupation": "Bank Teller",
+      "location": "Bangkok",
+      "livingSituation": "Lives alone",
+      "stroke": {
+        "type": "Hemorrhagic",
+        "timeSinceStrokeMonths": 7,
+        "affectedSide": "Right",
+        "affectedDomains": [
+          "Upper Limb"
+        ],
+        "recoveryStage": "Moderate"
+      },
+      "primaryGoal": "Return to Work",
+      "assignedPT": "PT001",
+      "assignedOT": "OT002",
+      "lastSession": "2026-07-08",
+      "consistency": 92,
+      "attentionStatus": "Doing Well",
+      "latestUpdate": {
+        "date": "2026-07-07",
+        "therapistId": "OT002",
+        "message": "Great hand control progress. Continue practicing slow finger coordination."
+      },
+      "nextAppointment": {
+        "date": "2026-07-17",
+        "time": "13:30",
+        "location": "Siriraj Hospital",
+        "type": "Occupational Therapy Review"
+      }
+    },
+    {
+      "id": "PT00056394",
+      "displayName": "Narong Chongcharoen",
+      "avatar": "/avatars/narong.png",
+      "age": 61,
+      "sex": "Male",
+      "occupation": "Business Owner",
+      "location": "Bangkok",
+      "livingSituation": "Lives with wife, three grown children and household maids",
+      "stroke": {
+        "type": "Ischemic",
+        "timeSinceStrokeMonths": 10,
+        "affectedSide": "Left",
+        "affectedDomains": [
+          "Upper Limb"
+        ],
+        "recoveryStage": "Mild"
+      },
+      "primaryGoal": "Return to Social Community",
+      "assignedPT": "PT001",
+      "assignedOT": "OT001",
+      "lastSession": "2026-07-08",
+      "consistency": 94,
+      "attentionStatus": "Doing Well",
+      "latestUpdate": {
+        "date": "2026-07-06",
+        "therapistId": "OT001",
+        "message": "You are progressing well. Keep using your affected arm during safe everyday tasks."
+      },
+      "nextAppointment": {
+        "date": "2026-07-21",
+        "time": "11:00",
+        "location": "Siriraj Hospital",
+        "type": "Rehabilitation Review"
+      }
+    },
+    {
+      "id": "PT00064827",
+      "displayName": "Suda Rattanakul",
+      "avatar": "/avatars/suda.png",
+      "age": 72,
+      "sex": "Female",
+      "occupation": "Retiree",
+      "location": "Nakhon Pathom",
+      "livingSituation": "Lives with extended family",
+      "stroke": {
+        "type": "Ischemic",
+        "timeSinceStrokeMonths": 18,
+        "affectedSide": "Left",
+        "affectedDomains": [
+          "Upper Limb"
+        ],
+        "recoveryStage": "Plateau"
+      },
+      "primaryGoal": "Regain Daily Living Skills",
+      "assignedPT": "PT001",
+      "assignedOT": "OT002",
+      "lastSession": "2026-07-06",
+      "consistency": 67,
+      "attentionStatus": "On Track",
+      "latestUpdate": {
+        "date": "2026-07-05",
+        "therapistId": "OT002",
+        "message": "Continue hand coordination practice. We will review cooking-related tasks next session."
+      },
+      "nextAppointment": {
+        "date": "2026-07-18",
+        "time": "09:00",
+        "location": "Siriraj Hospital",
+        "type": "Occupational Therapy Review"
+      }
+    },
+    {
+      "id": "PT00075183",
+      "displayName": "Daranee Limpikul",
+      "avatar": "/avatars/daranee.png",
+      "age": 64,
+      "sex": "Female",
+      "occupation": "Former Corporate Executive",
+      "location": "Bangkok",
+      "livingSituation": "Lives at home with her husband, children and a full-time caregiver",
+      "stroke": {
+        "type": "Ischemic",
+        "timeSinceStrokeMonths": 12,
+        "affectedSide": "Right",
+        "affectedDomains": [
+          "Upper Limb",
+          "Lower Limb"
+        ],
+        "recoveryStage": "Severe"
+      },
+      "primaryGoal": "Improve Functional Mobility",
+      "assignedPT": "PT001",
+      "assignedOT": "OT003",
+      "lastSession": "2026-07-08",
+      "consistency": 98,
+      "attentionStatus": "On Track",
+      "latestUpdate": {
+        "date": "2026-07-08",
+        "therapistId": "PT001",
+        "message": "Excellent commitment. Continue supported mobility practice and avoid rushing transfers."
+      },
+      "nextAppointment": {
+        "date": "2026-07-10",
+        "time": "14:00",
+        "location": "Siriraj Hospital",
+        "type": "Physical Therapy Review"
+      }
+    }
+  ],
+  "therapists": [
+    {
+      "id": "PT001",
+      "displayName": "Proud A.",
+      "role": "Physical Therapist",
+      "credentials": "PT",
+      "hospital": "Siriraj Hospital",
+      "department": "Stroke Rehabilitation"
+    },
+    {
+      "id": "OT001",
+      "displayName": "Pair L.",
+      "role": "Occupational Therapist",
+      "credentials": "OT",
+      "hospital": "Siriraj Hospital",
+      "department": "Stroke Rehabilitation"
+    },
+    {
+      "id": "OT002",
+      "displayName": "Sayn S.",
+      "role": "Occupational Therapist",
+      "credentials": "OT",
+      "hospital": "Siriraj Hospital",
+      "department": "Stroke Rehabilitation"
+    },
+    {
+      "id": "OT003",
+      "displayName": "Phoenix P.",
+      "role": "Occupational Therapist",
+      "credentials": "OT",
+      "hospital": "Siriraj Hospital",
+      "department": "Stroke Rehabilitation"
+    }
+  ],
+  "goals": [
+    {
+      "id": "G00018472_PRIMARY",
+      "patientId": "PT00018472",
+      "type": "primary",
+      "category": "Work & Productivity",
+      "title": "Return to Work",
+      "progressPercent": 63,
+      "milestones": [
+        {
+          "id": "M0001",
+          "title": "Lift affected arm to chest height",
+          "status": "completed"
+        },
+        {
+          "id": "M0002",
+          "title": "Grip steering wheel confidently",
+          "status": "completed"
+        },
+        {
+          "id": "M0003",
+          "title": "Steer for 5 minutes without fatigue",
+          "status": "in_progress"
+        },
+        {
+          "id": "M0004",
+          "title": "Complete a short supervised drive",
+          "status": "locked"
+        }
+      ]
+    },
+    {
+      "id": "G00018472_SECONDARY_1",
+      "patientId": "PT00018472",
+      "type": "secondary",
+      "category": "Daily Living",
+      "title": "Help my wife with grocery shopping",
+      "progressPercent": 72
+    },
+    {
+      "id": "G00018472_SECONDARY_2",
+      "patientId": "PT00018472",
+      "type": "secondary",
+      "category": "Family",
+      "title": "Play with my children independently",
+      "progressPercent": 58
+    },
+    {
+      "id": "G00018472_SECONDARY_3",
+      "patientId": "PT00018472",
+      "type": "secondary",
+      "category": "Social & Community",
+      "title": "Go out to meet friends on my own",
+      "progressPercent": 65
+    },
+    {
+      "id": "G00029631_PRIMARY",
+      "patientId": "PT00029631",
+      "type": "primary",
+      "category": "Independence",
+      "title": "Regain Independence in Daily Living",
+      "progressPercent": 34,
+      "milestones": [
+        {
+          "id": "M0005",
+          "title": "Sit upright safely",
+          "status": "completed"
+        },
+        {
+          "id": "M0006",
+          "title": "Transfer from bed to chair with support",
+          "status": "in_progress"
+        },
+        {
+          "id": "M0007",
+          "title": "Prepare a simple meal independently",
+          "status": "locked"
+        }
+      ]
+    },
+    {
+      "id": "G00029631_SECONDARY_1",
+      "patientId": "PT00029631",
+      "type": "secondary",
+      "category": "Daily Living",
+      "title": "Dress independently",
+      "progressPercent": 28
+    },
+    {
+      "id": "G00029631_SECONDARY_2",
+      "patientId": "PT00029631",
+      "type": "secondary",
+      "category": "Independence",
+      "title": "Move safely around the home",
+      "progressPercent": 31
+    },
+    {
+      "id": "G00041758_PRIMARY",
+      "patientId": "PT00041758",
+      "type": "primary",
+      "category": "Work & Productivity",
+      "title": "Return to Work",
+      "progressPercent": 76,
+      "milestones": [
+        {
+          "id": "M0008",
+          "title": "Write clearly for short periods",
+          "status": "completed"
+        },
+        {
+          "id": "M0009",
+          "title": "Count cash confidently",
+          "status": "completed"
+        },
+        {
+          "id": "M0010",
+          "title": "Use a computer and phone comfortably",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "id": "G00041758_SECONDARY_1",
+      "patientId": "PT00041758",
+      "type": "secondary",
+      "category": "Work & Productivity",
+      "title": "Handle cash and documents confidently",
+      "progressPercent": 74
+    },
+    {
+      "id": "G00041758_SECONDARY_2",
+      "patientId": "PT00041758",
+      "type": "secondary",
+      "category": "Independence",
+      "title": "Use my affected hand confidently",
+      "progressPercent": 70
+    },
+    {
+      "id": "G00056394_PRIMARY",
+      "patientId": "PT00056394",
+      "type": "primary",
+      "category": "Social & Community",
+      "title": "Return to Social Community",
+      "progressPercent": 82,
+      "milestones": [
+        {
+          "id": "M0011",
+          "title": "Attend a short social gathering",
+          "status": "completed"
+        },
+        {
+          "id": "M0012",
+          "title": "Travel to a family meal",
+          "status": "completed"
+        },
+        {
+          "id": "M0013",
+          "title": "Return to regular community activities",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "id": "G00056394_SECONDARY_1",
+      "patientId": "PT00056394",
+      "type": "secondary",
+      "category": "Social & Community",
+      "title": "Meet friends regularly",
+      "progressPercent": 80
+    },
+    {
+      "id": "G00056394_SECONDARY_2",
+      "patientId": "PT00056394",
+      "type": "secondary",
+      "category": "Health & Recreation",
+      "title": "Return to favourite hobbies",
+      "progressPercent": 78
+    },
+    {
+      "id": "G00064827_PRIMARY",
+      "patientId": "PT00064827",
+      "type": "primary",
+      "category": "Daily Living",
+      "title": "Regain Daily Living Skills",
+      "progressPercent": 54,
+      "milestones": [
+        {
+          "id": "M0014",
+          "title": "Hold utensils steadily",
+          "status": "completed"
+        },
+        {
+          "id": "M0015",
+          "title": "Prepare simple ingredients",
+          "status": "in_progress"
+        },
+        {
+          "id": "M0016",
+          "title": "Cook a simple meal with family",
+          "status": "locked"
+        }
+      ]
+    },
+    {
+      "id": "G00064827_SECONDARY_1",
+      "patientId": "PT00064827",
+      "type": "secondary",
+      "category": "Family",
+      "title": "Cook for my family again",
+      "progressPercent": 49
+    },
+    {
+      "id": "G00064827_SECONDARY_2",
+      "patientId": "PT00064827",
+      "type": "secondary",
+      "category": "Daily Living",
+      "title": "Use chopsticks confidently",
+      "progressPercent": 42
+    },
+    {
+      "id": "G00075183_PRIMARY",
+      "patientId": "PT00075183",
+      "type": "primary",
+      "category": "Mobility",
+      "title": "Improve Functional Mobility",
+      "progressPercent": 46,
+      "milestones": [
+        {
+          "id": "M0017",
+          "title": "Stand with assistance",
+          "status": "completed"
+        },
+        {
+          "id": "M0018",
+          "title": "Transfer safely with minimal assistance",
+          "status": "in_progress"
+        },
+        {
+          "id": "M0019",
+          "title": "Walk short distances independently",
+          "status": "locked"
+        }
+      ]
+    },
+    {
+      "id": "G00075183_SECONDARY_1",
+      "patientId": "PT00075183",
+      "type": "secondary",
+      "category": "Independence",
+      "title": "Move around the home more confidently",
+      "progressPercent": 44
+    },
+    {
+      "id": "G00075183_SECONDARY_2",
+      "patientId": "PT00075183",
+      "type": "secondary",
+      "category": "Family",
+      "title": "Spend more time with family at home",
+      "progressPercent": 52
+    }
+  ],
+  "exercises": [
+    {
+      "id": "EX0001",
+      "name": "Shoulder Raise",
+      "rehabDomain": "Upper Limb",
+      "category": "Shoulder Mobility",
+      "difficulty": "Beginner",
+      "targetBodyParts": [
+        "Shoulder"
+      ],
+      "functionalGoals": [
+        "Return to Work",
+        "Overhead Reach",
+        "Steering Control"
+      ],
+      "equipment": [
+        "None"
+      ],
+      "defaultParameters": {
+        "sets": 3,
+        "reps": 10,
+        "estimatedMinutes": 6
+      },
+      "trackingMethod": "Manual",
+      "instructions": [
+        "Sit upright with your feet flat on the floor.",
+        "Raise your affected arm slowly to shoulder height.",
+        "Lower with control."
+      ]
+    },
+    {
+      "id": "EX0002",
+      "name": "Forward Reach",
+      "rehabDomain": "Upper Limb",
+      "category": "Shoulder Mobility",
+      "difficulty": "Beginner",
+      "targetBodyParts": [
+        "Shoulder",
+        "Elbow"
+      ],
+      "functionalGoals": [
+        "Reaching",
+        "Daily Living",
+        "Return to Work"
+      ],
+      "equipment": [
+        "None"
+      ],
+      "defaultParameters": {
+        "sets": 3,
+        "reps": 10,
+        "estimatedMinutes": 6
+      },
+      "trackingMethod": "Manual",
+      "instructions": [
+        "Sit upright.",
+        "Reach your affected arm forward.",
+        "Return slowly to the starting position."
+      ]
+    },
+    {
+      "id": "EX0003",
+      "name": "Side Reach",
+      "rehabDomain": "Upper Limb",
+      "category": "Shoulder Mobility",
+      "difficulty": "Intermediate",
+      "targetBodyParts": [
+        "Shoulder"
+      ],
+      "functionalGoals": [
+        "Shoulder Control",
+        "Daily Living"
+      ],
+      "equipment": [
+        "None"
+      ],
+      "defaultParameters": {
+        "sets": 3,
+        "reps": 10,
+        "estimatedMinutes": 6
+      },
+      "trackingMethod": "Manual",
+      "instructions": [
+        "Lift your affected arm out to the side.",
+        "Pause briefly.",
+        "Lower with control."
+      ]
+    },
+    {
+      "id": "EX0004",
+      "name": "Elbow Flexion",
+      "rehabDomain": "Upper Limb",
+      "category": "Elbow Control",
+      "difficulty": "Beginner",
+      "targetBodyParts": [
+        "Elbow"
+      ],
+      "functionalGoals": [
+        "Lifting Objects",
+        "Daily Living"
+      ],
+      "equipment": [
+        "None"
+      ],
+      "defaultParameters": {
+        "sets": 3,
+        "reps": 12,
+        "estimatedMinutes": 5
+      },
+      "trackingMethod": "Manual",
+      "instructions": [
+        "Keep your elbow by your side.",
+        "Bend your elbow slowly.",
+        "Lower slowly."
+      ]
+    },
+    {
+      "id": "EX0005",
+      "name": "Elbow Extension",
+      "rehabDomain": "Upper Limb",
+      "category": "Elbow Control",
+      "difficulty": "Beginner",
+      "targetBodyParts": [
+        "Elbow"
+      ],
+      "functionalGoals": [
+        "Reaching",
+        "Arm Extension"
+      ],
+      "equipment": [
+        "None"
+      ],
+      "defaultParameters": {
+        "sets": 3,
+        "reps": 12,
+        "estimatedMinutes": 5
+      },
+      "trackingMethod": "Manual",
+      "instructions": [
+        "Begin with your elbow bent.",
+        "Straighten your arm fully.",
+        "Return slowly."
+      ]
+    },
+    {
+      "id": "EX0006",
+      "name": "Wrist Extension",
+      "rehabDomain": "Upper Limb",
+      "category": "Wrist Mobility",
+      "difficulty": "Beginner",
+      "targetBodyParts": [
+        "Wrist"
+      ],
+      "functionalGoals": [
+        "Grip Control",
+        "Writing"
+      ],
+      "equipment": [
+        "None"
+      ],
+      "defaultParameters": {
+        "sets": 3,
+        "reps": 12,
+        "estimatedMinutes": 5
+      },
+      "trackingMethod": "Manual",
+      "instructions": [
+        "Rest your forearm on a table.",
+        "Lift your hand upward.",
+        "Lower slowly."
+      ]
+    },
+    {
+      "id": "EX0007",
+      "name": "Forearm Rotation",
+      "rehabDomain": "Upper Limb",
+      "category": "Wrist Mobility",
+      "difficulty": "Intermediate",
+      "targetBodyParts": [
+        "Forearm",
+        "Wrist"
+      ],
+      "functionalGoals": [
+        "Turning Objects",
+        "Daily Living"
+      ],
+      "equipment": [
+        "None"
+      ],
+      "defaultParameters": {
+        "sets": 3,
+        "reps": 10,
+        "estimatedMinutes": 5
+      },
+      "trackingMethod": "Manual",
+      "instructions": [
+        "Rest your elbow by your side.",
+        "Rotate your palm upward.",
+        "Rotate back downward."
+      ]
+    },
+    {
+      "id": "EX0008",
+      "name": "Hand Open & Close",
+      "rehabDomain": "Upper Limb",
+      "category": "Hand Function",
+      "difficulty": "Beginner",
+      "targetBodyParts": [
+        "Hand",
+        "Fingers"
+      ],
+      "functionalGoals": [
+        "Grip Strength",
+        "Holding Objects"
+      ],
+      "equipment": [
+        "None"
+      ],
+      "defaultParameters": {
+        "sets": 3,
+        "reps": 15,
+        "estimatedMinutes": 5
+      },
+      "trackingMethod": "Manual",
+      "instructions": [
+        "Open your hand as wide as possible.",
+        "Close into a gentle fist.",
+        "Repeat smoothly."
+      ]
+    },
+    {
+      "id": "EX0009",
+      "name": "Grip Squeeze",
+      "rehabDomain": "Upper Limb",
+      "category": "Hand Strength",
+      "difficulty": "Intermediate",
+      "targetBodyParts": [
+        "Hand"
+      ],
+      "functionalGoals": [
+        "Grip Strength",
+        "Steering Control",
+        "Carrying Objects"
+      ],
+      "equipment": [
+        "Therapy Ball"
+      ],
+      "defaultParameters": {
+        "sets": 3,
+        "reps": 12,
+        "estimatedMinutes": 5
+      },
+      "trackingMethod": "Manual",
+      "instructions": [
+        "Hold the therapy ball.",
+        "Squeeze firmly.",
+        "Release slowly."
+      ]
+    },
+    {
+      "id": "EX0010",
+      "name": "Finger Tapping",
+      "rehabDomain": "Upper Limb",
+      "category": "Fine Motor Control",
+      "difficulty": "Beginner",
+      "targetBodyParts": [
+        "Fingers"
+      ],
+      "functionalGoals": [
+        "Typing",
+        "Writing",
+        "Fine Motor Skills"
+      ],
+      "equipment": [
+        "None"
+      ],
+      "defaultParameters": {
+        "sets": 3,
+        "reps": 20,
+        "estimatedMinutes": 5
+      },
+      "trackingMethod": "Manual",
+      "instructions": [
+        "Tap each finger against your thumb.",
+        "Repeat from index finger to little finger.",
+        "Maintain a steady rhythm."
+      ]
+    },
+    {
+      "id": "EX0011",
+      "name": "Peg Transfer",
+      "rehabDomain": "Upper Limb",
+      "category": "Fine Motor Control",
+      "difficulty": "Advanced",
+      "targetBodyParts": [
+        "Hand",
+        "Fingers"
+      ],
+      "functionalGoals": [
+        "Dexterity",
+        "Fine Motor Skills",
+        "Daily Living"
+      ],
+      "equipment": [
+        "Peg Board"
+      ],
+      "defaultParameters": {
+        "sets": 3,
+        "reps": 10,
+        "estimatedMinutes": 8
+      },
+      "trackingMethod": "Manual",
+      "instructions": [
+        "Pick up one peg at a time.",
+        "Move it to the target hole.",
+        "Repeat until complete."
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "id": "A00018472",
+      "patientId": "PT00018472",
+      "status": "active",
+      "primaryGoalId": "G00018472_PRIMARY",
+      "focusTitle": "Steering Control & Grip Confidence",
+      "rehabDomain": "Upper Limb",
+      "exerciseIds": [
+        "EX0001",
+        "EX0002",
+        "EX0008"
+      ],
+      "schedule": {
+        "frequency": "Daily",
+        "daysPerWeek": 5,
+        "estimatedMinutes": 20
+      },
+      "therapistTip": "Focus on slow, controlled movements. Quality over quantity."
+    }
+  ],
+  "sessions": [
+    {
+      "id": "S00018472_20260708",
+      "patientId": "PT00018472",
+      "assignmentId": "A00018472",
+      "date": "2026-07-08",
+      "status": "completed",
+      "durationMinutes": 20,
+      "exerciseCount": 3,
+      "totalReps": 105,
+      "difficulty": "moderate",
+      "painScore": 3,
+      "fatigueScore": 5,
+      "barriers": [
+        "Fatigue"
+      ],
+      "noteToTherapist": "My shoulder felt tired near the end.",
+      "goalReflection": "definitely",
+      "sharedWithTherapist": true
+    },
+    {
+      "id": "S00018472_20260707",
+      "patientId": "PT00018472",
+      "assignmentId": "A00018472",
+      "date": "2026-07-07",
+      "status": "not_completed",
+      "durationMinutes": 0,
+      "exerciseCount": 0,
+      "totalReps": 0,
+      "difficulty": null,
+      "painScore": null,
+      "fatigueScore": null,
+      "barriers": [
+        "Too busy"
+      ],
+      "noteToTherapist": "",
+      "goalReflection": null,
+      "sharedWithTherapist": true
+    },
+    {
+      "id": "S00018472_20260706",
+      "patientId": "PT00018472",
+      "assignmentId": "A00018472",
+      "date": "2026-07-06",
+      "status": "completed",
+      "durationMinutes": 18,
+      "exerciseCount": 3,
+      "totalReps": 92,
+      "difficulty": "easy",
+      "painScore": 2,
+      "fatigueScore": 3,
+      "barriers": [],
+      "noteToTherapist": "",
+      "goalReflection": "definitely",
+      "sharedWithTherapist": true
+    },
+    {
+      "id": "S00018472_20260705",
+      "patientId": "PT00018472",
+      "assignmentId": "A00018472",
+      "date": "2026-07-05",
+      "status": "completed",
+      "durationMinutes": 22,
+      "exerciseCount": 3,
+      "totalReps": 100,
+      "difficulty": "moderate",
+      "painScore": 3,
+      "fatigueScore": 4,
+      "barriers": [
+        "Exercise too difficult"
+      ],
+      "noteToTherapist": "Forward reach was harder than usual.",
+      "goalReflection": "a_little",
+      "sharedWithTherapist": true
+    },
+    {
+      "id": "S00018472_20260704",
+      "patientId": "PT00018472",
+      "assignmentId": "A00018472",
+      "date": "2026-07-04",
+      "status": "not_completed",
+      "durationMinutes": 0,
+      "exerciseCount": 0,
+      "totalReps": 0,
+      "difficulty": null,
+      "painScore": null,
+      "fatigueScore": null,
+      "barriers": [
+        "Forgot"
+      ],
+      "noteToTherapist": "",
+      "goalReflection": null,
+      "sharedWithTherapist": true
+    },
+    {
+      "id": "S00018472_20260703",
+      "patientId": "PT00018472",
+      "assignmentId": "A00018472",
+      "date": "2026-07-03",
+      "status": "completed",
+      "durationMinutes": 19,
+      "exerciseCount": 3,
+      "totalReps": 95,
+      "difficulty": "easy",
+      "painScore": 2,
+      "fatigueScore": 2,
+      "barriers": [],
+      "noteToTherapist": "Hand exercise felt easier today.",
+      "goalReflection": "definitely",
+      "sharedWithTherapist": true
+    },
+    {
+      "id": "S00018472_20260702",
+      "patientId": "PT00018472",
+      "assignmentId": "A00018472",
+      "date": "2026-07-02",
+      "status": "completed",
+      "durationMinutes": 17,
+      "exerciseCount": 3,
+      "totalReps": 88,
+      "difficulty": "easy",
+      "painScore": 2,
+      "fatigueScore": 3,
+      "barriers": [],
+      "noteToTherapist": "",
+      "goalReflection": "a_little",
+      "sharedWithTherapist": true
+    }
+  ],
+  "recoverySnapshots": [
+    {
+      "patientId": "PT00018472",
+      "lastUpdated": "2026-07-08",
+      "shoulder": {
+        "progressPercent": 68,
+        "trendPercent": 4
+      },
+      "elbow": {
+        "progressPercent": 74,
+        "trendPercent": 3
+      },
+      "hand": {
+        "progressPercent": 52,
+        "trendPercent": 5
+      },
+      "fingers": {
+        "progressPercent": 41,
+        "trendPercent": 6
+      }
+    },
+    {
+      "patientId": "PT00029631",
+      "lastUpdated": "2026-07-07",
+      "shoulder": {
+        "progressPercent": 31,
+        "trendPercent": 0
+      },
+      "elbow": {
+        "progressPercent": 42,
+        "trendPercent": 0
+      },
+      "hand": {
+        "progressPercent": 28,
+        "trendPercent": 0
+      },
+      "fingers": {
+        "progressPercent": 19,
+        "trendPercent": 0
+      }
+    },
+    {
+      "patientId": "PT00041758",
+      "lastUpdated": "2026-07-08",
+      "shoulder": {
+        "progressPercent": 73,
+        "trendPercent": 0
+      },
+      "elbow": {
+        "progressPercent": 76,
+        "trendPercent": 0
+      },
+      "hand": {
+        "progressPercent": 63,
+        "trendPercent": 0
+      },
+      "fingers": {
+        "progressPercent": 58,
+        "trendPercent": 0
+      }
+    },
+    {
+      "patientId": "PT00056394",
+      "lastUpdated": "2026-07-08",
+      "shoulder": {
+        "progressPercent": 88,
+        "trendPercent": 0
+      },
+      "elbow": {
+        "progressPercent": 90,
+        "trendPercent": 0
+      },
+      "hand": {
+        "progressPercent": 81,
+        "trendPercent": 0
+      },
+      "fingers": {
+        "progressPercent": 74,
+        "trendPercent": 0
+      }
+    },
+    {
+      "patientId": "PT00064827",
+      "lastUpdated": "2026-07-06",
+      "shoulder": {
+        "progressPercent": 71,
+        "trendPercent": 0
+      },
+      "elbow": {
+        "progressPercent": 69,
+        "trendPercent": 0
+      },
+      "hand": {
+        "progressPercent": 49,
+        "trendPercent": 0
+      },
+      "fingers": {
+        "progressPercent": 38,
+        "trendPercent": 0
+      }
+    },
+    {
+      "patientId": "PT00075183",
+      "lastUpdated": "2026-07-08",
+      "shoulder": {
+        "progressPercent": 35,
+        "trendPercent": 0
+      },
+      "elbow": {
+        "progressPercent": 44,
+        "trendPercent": 0
+      },
+      "hand": {
+        "progressPercent": 27,
+        "trendPercent": 0
+      },
+      "fingers": {
+        "progressPercent": 18,
+        "trendPercent": 0
+      }
+    }
+  ]
+}

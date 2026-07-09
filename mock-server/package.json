@@ -1,0 +1,11 @@
+{
+  "name": "linkcare-mock-server",
+  "version": "1.0.0",
+  "description": "Shared mock API server for LinkCare - serves mock-data as REST endpoints so the patient app and therapist dashboard can connect without a real backend.",
+  "scripts": {
+    "start": "json-server --watch db.json --port 4000"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}

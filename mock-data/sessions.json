@@ -1,0 +1,129 @@
+[
+  {
+    "id": "S00018472_20260708",
+    "patientId": "PT00018472",
+    "assignmentId": "A00018472",
+    "date": "2026-07-08",
+    "status": "completed",
+    "durationMinutes": 20,
+    "exerciseCount": 3,
+    "totalReps": 105,
+    "difficulty": "moderate",
+    "painScore": 3,
+    "fatigueScore": 5,
+    "barriers": [
+      "Fatigue"
+    ],
+    "noteToTherapist": "My shoulder felt tired near the end.",
+    "goalReflection": "definitely",
+    "sharedWithTherapist": true
+  },
+  {
+    "id": "S00018472_20260707",
+    "patientId": "PT00018472",
+    "assignmentId": "A00018472",
+    "date": "2026-07-07",
+    "status": "not_completed",
+    "durationMinutes": 0,
+    "exerciseCount": 0,
+    "totalReps": 0,
+    "difficulty": null,
+    "painScore": null,
+    "fatigueScore": null,
+    "barriers": [
+      "Too busy"
+    ],
+    "noteToTherapist": "",
+    "goalReflection": null,
+    "sharedWithTherapist": true
+  },
+  {
+    "id": "S00018472_20260706",
+    "patientId": "PT00018472",
+    "assignmentId": "A00018472",
+    "date": "2026-07-06",
+    "status": "completed",
+    "durationMinutes": 18,
+    "exerciseCount": 3,
+    "totalReps": 92,
+    "difficulty": "easy",
+    "painScore": 2,
+    "fatigueScore": 3,
+    "barriers": [],
+    "noteToTherapist": "",
+    "goalReflection": "definitely",
+    "sharedWithTherapist": true
+  },
+  {
+    "id": "S00018472_20260705",
+    "patientId": "PT00018472",
+    "assignmentId": "A00018472",
+    "date": "2026-07-05",
+    "status": "completed",
+    "durationMinutes": 22,
+    "exerciseCount": 3,
+    "totalReps": 100,
+    "difficulty": "moderate",
+    "painScore": 3,
+    "fatigueScore": 4,
+    "barriers": [
+      "Exercise too difficult"
+    ],
+    "noteToTherapist": "Forward reach was harder than usual.",
+    "goalReflection": "a_little",
+    "sharedWithTherapist": true
+  },
+  {
+    "id": "S00018472_20260704",
+    "patientId": "PT00018472",
+    "assignmentId": "A00018472",
+    "date": "2026-07-04",
+    "status": "not_completed",
+    "durationMinutes": 0,
+    "exerciseCount": 0,
+    "totalReps": 0,
+    "difficulty": null,
+    "painScore": null,
+    "fatigueScore": null,
+    "barriers": [
+      "Forgot"
+    ],
+    "noteToTherapist": "",
+    "goalReflection": null,
+    "sharedWithTherapist": true
+  },
+  {
+    "id": "S00018472_20260703",
+    "patientId": "PT00018472",
+    "assignmentId": "A00018472",
+    "date": "2026-07-03",
+    "status": "completed",
+    "durationMinutes": 19,
+    "exerciseCount": 3,
+    "totalReps": 95,
+    "difficulty": "easy",
+    "painScore": 2,
+    "fatigueScore": 2,
+    "barriers": [],
+    "noteToTherapist": "Hand exercise felt easier today.",
+    "goalReflection": "definitely",
+    "sharedWithTherapist": true
+  },
+  {
+    "id": "S00018472_20260702",
+    "patientId": "PT00018472",
+    "assignmentId": "A00018472",
+    "date": "2026-07-02",
+    "status": "completed",
+    "durationMinutes": 17,
+    "exerciseCount": 3,
+    "totalReps": 88,
+    "difficulty": "easy",
+    "painScore": 2,
+    "fatigueScore": 3,
+    "barriers": [],
+    "noteToTherapist": "",
+    "goalReflection": "a_little",
+    "sharedWithTherapist": true
+  }
+]
