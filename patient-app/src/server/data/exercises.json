@@ -1,0 +1,319 @@
+[
+  {
+    "id": "EX0001",
+    "name": "Shoulder Raise",
+    "rehabDomain": "Upper Limb",
+    "category": "Shoulder Mobility",
+    "difficulty": "Beginner",
+    "targetBodyParts": [
+      "Shoulder"
+    ],
+    "functionalGoals": [
+      "Improve Work Readiness",
+      "Overhead Reach",
+      "Steering Control"
+    ],
+    "equipment": [
+      "None"
+    ],
+    "defaultParameters": {
+      "sets": 3,
+      "reps": 10,
+      "estimatedMinutes": 6
+    },
+    "trackingMethod": "Manual",
+    "instructions": [
+      "Sit upright with your feet flat on the floor.",
+      "Raise your affected arm slowly to shoulder height.",
+      "Lower with control."
+    ]
+  },
+  {
+    "id": "EX0002",
+    "name": "Forward Reach",
+    "rehabDomain": "Upper Limb",
+    "category": "Shoulder Mobility",
+    "difficulty": "Beginner",
+    "targetBodyParts": [
+      "Shoulder",
+      "Elbow"
+    ],
+    "functionalGoals": [
+      "Reaching",
+      "Daily Living",
+      "Improve Work Readiness"
+    ],
+    "equipment": [
+      "None"
+    ],
+    "defaultParameters": {
+      "sets": 3,
+      "reps": 10,
+      "estimatedMinutes": 6
+    },
+    "trackingMethod": "Manual",
+    "instructions": [
+      "Sit upright.",
+      "Reach your affected arm forward.",
+      "Return slowly to the starting position."
+    ]
+  },
+  {
+    "id": "EX0003",
+    "name": "Side Reach",
+    "rehabDomain": "Upper Limb",
+    "category": "Shoulder Mobility",
+    "difficulty": "Intermediate",
+    "targetBodyParts": [
+      "Shoulder"
+    ],
+    "functionalGoals": [
+      "Shoulder Control",
+      "Daily Living"
+    ],
+    "equipment": [
+      "None"
+    ],
+    "defaultParameters": {
+      "sets": 3,
+      "reps": 10,
+      "estimatedMinutes": 6
+    },
+    "trackingMethod": "Manual",
+    "instructions": [
+      "Lift your affected arm out to the side.",
+      "Pause briefly.",
+      "Lower with control."
+    ]
+  },
+  {
+    "id": "EX0004",
+    "name": "Elbow Flexion",
+    "rehabDomain": "Upper Limb",
+    "category": "Elbow Control",
+    "difficulty": "Beginner",
+    "targetBodyParts": [
+      "Elbow"
+    ],
+    "functionalGoals": [
+      "Lifting Objects",
+      "Daily Living"
+    ],
+    "equipment": [
+      "None"
+    ],
+    "defaultParameters": {
+      "sets": 3,
+      "reps": 12,
+      "estimatedMinutes": 5
+    },
+    "trackingMethod": "Manual",
+    "instructions": [
+      "Keep your elbow by your side.",
+      "Bend your elbow slowly.",
+      "Lower slowly."
+    ]
+  },
+  {
+    "id": "EX0005",
+    "name": "Elbow Extension",
+    "rehabDomain": "Upper Limb",
+    "category": "Elbow Control",
+    "difficulty": "Beginner",
+    "targetBodyParts": [
+      "Elbow"
+    ],
+    "functionalGoals": [
+      "Reaching",
+      "Arm Extension"
+    ],
+    "equipment": [
+      "None"
+    ],
+    "defaultParameters": {
+      "sets": 3,
+      "reps": 12,
+      "estimatedMinutes": 5
+    },
+    "trackingMethod": "Manual",
+    "instructions": [
+      "Begin with your elbow bent.",
+      "Straighten your arm fully.",
+      "Return slowly."
+    ]
+  },
+  {
+    "id": "EX0006",
+    "name": "Wrist Extension",
+    "rehabDomain": "Upper Limb",
+    "category": "Wrist Mobility",
+    "difficulty": "Beginner",
+    "targetBodyParts": [
+      "Wrist"
+    ],
+    "functionalGoals": [
+      "Grip Control",
+      "Writing"
+    ],
+    "equipment": [
+      "None"
+    ],
+    "defaultParameters": {
+      "sets": 3,
+      "reps": 12,
+      "estimatedMinutes": 5
+    },
+    "trackingMethod": "Manual",
+    "instructions": [
+      "Rest your forearm on a table.",
+      "Lift your hand upward.",
+      "Lower slowly."
+    ]
+  },
+  {
+    "id": "EX0007",
+    "name": "Forearm Rotation",
+    "rehabDomain": "Upper Limb",
+    "category": "Wrist Mobility",
+    "difficulty": "Intermediate",
+    "targetBodyParts": [
+      "Forearm",
+      "Wrist"
+    ],
+    "functionalGoals": [
+      "Turning Objects",
+      "Daily Living"
+    ],
+    "equipment": [
+      "None"
+    ],
+    "defaultParameters": {
+      "sets": 3,
+      "reps": 10,
+      "estimatedMinutes": 5
+    },
+    "trackingMethod": "Manual",
+    "instructions": [
+      "Rest your elbow by your side.",
+      "Rotate your palm upward.",
+      "Rotate back downward."
+    ]
+  },
+  {
+    "id": "EX0008",
+    "name": "Hand Open & Close",
+    "rehabDomain": "Upper Limb",
+    "category": "Hand Function",
+    "difficulty": "Beginner",
+    "targetBodyParts": [
+      "Hand",
+      "Fingers"
+    ],
+    "functionalGoals": [
+      "Grip Strength",
+      "Holding Objects"
+    ],
+    "equipment": [
+      "None"
+    ],
+    "defaultParameters": {
+      "sets": 3,
+      "reps": 15,
+      "estimatedMinutes": 5
+    },
+    "trackingMethod": "Manual",
+    "instructions": [
+      "Open your hand as wide as possible.",
+      "Close into a gentle fist.",
+      "Repeat smoothly."
+    ]
+  },
+  {
+    "id": "EX0009",
+    "name": "Grip Squeeze",
+    "rehabDomain": "Upper Limb",
+    "category": "Hand Strength",
+    "difficulty": "Intermediate",
+    "targetBodyParts": [
+      "Hand"
+    ],
+    "functionalGoals": [
+      "Grip Strength",
+      "Steering Control",
+      "Carrying Objects"
+    ],
+    "equipment": [
+      "Therapy Ball"
+    ],
+    "defaultParameters": {
+      "sets": 3,
+      "reps": 12,
+      "estimatedMinutes": 5
+    },
+    "trackingMethod": "Manual",
+    "instructions": [
+      "Hold the therapy ball.",
+      "Squeeze firmly.",
+      "Release slowly."
+    ]
+  },
+  {
+    "id": "EX0010",
+    "name": "Finger Tapping",
+    "rehabDomain": "Upper Limb",
+    "category": "Fine Motor Control",
+    "difficulty": "Beginner",
+    "targetBodyParts": [
+      "Fingers"
+    ],
+    "functionalGoals": [
+      "Typing",
+      "Writing",
+      "Fine Motor Skills"
+    ],
+    "equipment": [
+      "None"
+    ],
+    "defaultParameters": {
+      "sets": 3,
+      "reps": 20,
+      "estimatedMinutes": 5
+    },
+    "trackingMethod": "Manual",
+    "instructions": [
+      "Tap each finger against your thumb.",
+      "Repeat from index finger to little finger.",
+      "Maintain a steady rhythm."
+    ]
+  },
+  {
+    "id": "EX0011",
+    "name": "Peg Transfer",
+    "rehabDomain": "Upper Limb",
+    "category": "Fine Motor Control",
+    "difficulty": "Advanced",
+    "targetBodyParts": [
+      "Hand",
+      "Fingers"
+    ],
+    "functionalGoals": [
+      "Dexterity",
+      "Fine Motor Skills",
+      "Daily Living"
+    ],
+    "equipment": [
+      "Peg Board"
+    ],
+    "defaultParameters": {
+      "sets": 3,
+      "reps": 10,
+      "estimatedMinutes": 8
+    },
+    "trackingMethod": "Manual",
+    "instructions": [
+      "Pick up one peg at a time.",
+      "Move it to the target hole.",
+      "Repeat until complete."
+    ]
+  }
+]

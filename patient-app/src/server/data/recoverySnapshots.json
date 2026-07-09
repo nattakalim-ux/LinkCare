@@ -1,0 +1,122 @@
+[
+  {
+    "patientId": "PT00018472",
+    "lastUpdated": "2026-07-08",
+    "shoulder": {
+      "progressPercent": 68,
+      "trendPercent": 4
+    },
+    "elbow": {
+      "progressPercent": 74,
+      "trendPercent": 3
+    },
+    "hand": {
+      "progressPercent": 52,
+      "trendPercent": 5
+    },
+    "fingers": {
+      "progressPercent": 41,
+      "trendPercent": 6
+    }
+  },
+  {
+    "patientId": "PT00029631",
+    "lastUpdated": "2026-07-07",
+    "shoulder": {
+      "progressPercent": 31,
+      "trendPercent": 0
+    },
+    "elbow": {
+      "progressPercent": 42,
+      "trendPercent": 0
+    },
+    "hand": {
+      "progressPercent": 28,
+      "trendPercent": 0
+    },
+    "fingers": {
+      "progressPercent": 19,
+      "trendPercent": 0
+    }
+  },
+  {
+    "patientId": "PT00041758",
+    "lastUpdated": "2026-07-08",
+    "shoulder": {
+      "progressPercent": 73,
+      "trendPercent": 0
+    },
+    "elbow": {
+      "progressPercent": 76,
+      "trendPercent": 0
+    },
+    "hand": {
+      "progressPercent": 63,
+      "trendPercent": 0
+    },
+    "fingers": {
+      "progressPercent": 58,
+      "trendPercent": 0
+    }
+  },
+  {
+    "patientId": "PT00056394",
+    "lastUpdated": "2026-07-08",
+    "shoulder": {
+      "progressPercent": 88,
+      "trendPercent": 0
+    },
+    "elbow": {
+      "progressPercent": 90,
+      "trendPercent": 0
+    },
+    "hand": {
+      "progressPercent": 81,
+      "trendPercent": 0
+    },
+    "fingers": {
+      "progressPercent": 74,
+      "trendPercent": 0
+    }
+  },
+  {
+    "patientId": "PT00064827",
+    "lastUpdated": "2026-07-06",
+    "shoulder": {
+      "progressPercent": 71,
+      "trendPercent": 0
+    },
+    "elbow": {
+      "progressPercent": 69,
+      "trendPercent": 0
+    },
+    "hand": {
+      "progressPercent": 49,
+      "trendPercent": 0
+    },
+    "fingers": {
+      "progressPercent": 38,
+      "trendPercent": 0
+    }
+  },
+  {
+    "patientId": "PT00075183",
+    "lastUpdated": "2026-07-08",
+    "shoulder": {
+      "progressPercent": 35,
+      "trendPercent": 0
+    },
+    "elbow": {
+      "progressPercent": 44,
+      "trendPercent": 0
+    },
+    "hand": {
+      "progressPercent": 27,
+      "trendPercent": 0
+    },
+    "fingers": {
+      "progressPercent": 18,
+      "trendPercent": 0
+    }
+  }
+]

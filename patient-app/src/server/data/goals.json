@@ -1,0 +1,261 @@
+[
+  {
+    "id": "G00018472_PRIMARY",
+    "patientId": "PT00018472",
+    "type": "primary",
+    "category": "Work & Productivity",
+    "title": "Improve Work Readiness",
+    "progressPercent": 63,
+    "milestones": [
+      {
+        "id": "M0001",
+        "title": "Lift affected arm to chest height",
+        "status": "completed"
+      },
+      {
+        "id": "M0002",
+        "title": "Grip steering wheel confidently",
+        "status": "completed"
+      },
+      {
+        "id": "M0003",
+        "title": "Steer for 5 minutes without fatigue",
+        "status": "in_progress"
+      },
+      {
+        "id": "M0004",
+        "title": "Complete a short supervised drive",
+        "status": "locked"
+      }
+    ]
+  },
+  {
+    "id": "G00018472_SECONDARY_1",
+    "patientId": "PT00018472",
+    "type": "secondary",
+    "category": "Daily Living",
+    "title": "Help my wife with grocery shopping",
+    "progressPercent": 72
+  },
+  {
+    "id": "G00018472_SECONDARY_2",
+    "patientId": "PT00018472",
+    "type": "secondary",
+    "category": "Family",
+    "title": "Play with my children independently",
+    "progressPercent": 58
+  },
+  {
+    "id": "G00018472_SECONDARY_3",
+    "patientId": "PT00018472",
+    "type": "secondary",
+    "category": "Social & Community",
+    "title": "Go out to meet friends on my own",
+    "progressPercent": 65
+  },
+  {
+    "id": "G00029631_PRIMARY",
+    "patientId": "PT00029631",
+    "type": "primary",
+    "category": "Independence",
+    "title": "Regain Independence in Daily Living",
+    "progressPercent": 34,
+    "milestones": [
+      {
+        "id": "M0005",
+        "title": "Sit upright safely",
+        "status": "completed"
+      },
+      {
+        "id": "M0006",
+        "title": "Transfer from bed to chair with support",
+        "status": "in_progress"
+      },
+      {
+        "id": "M0007",
+        "title": "Prepare a simple meal independently",
+        "status": "locked"
+      }
+    ]
+  },
+  {
+    "id": "G00029631_SECONDARY_1",
+    "patientId": "PT00029631",
+    "type": "secondary",
+    "category": "Daily Living",
+    "title": "Dress independently",
+    "progressPercent": 28
+  },
+  {
+    "id": "G00029631_SECONDARY_2",
+    "patientId": "PT00029631",
+    "type": "secondary",
+    "category": "Independence",
+    "title": "Move safely around the home",
+    "progressPercent": 31
+  },
+  {
+    "id": "G00041758_PRIMARY",
+    "patientId": "PT00041758",
+    "type": "primary",
+    "category": "Work & Productivity",
+    "title": "Improve Work Readiness",
+    "progressPercent": 76,
+    "milestones": [
+      {
+        "id": "M0008",
+        "title": "Write clearly for short periods",
+        "status": "completed"
+      },
+      {
+        "id": "M0009",
+        "title": "Count cash confidently",
+        "status": "completed"
+      },
+      {
+        "id": "M0010",
+        "title": "Use a computer and phone comfortably",
+        "status": "in_progress"
+      }
+    ]
+  },
+  {
+    "id": "G00041758_SECONDARY_1",
+    "patientId": "PT00041758",
+    "type": "secondary",
+    "category": "Work & Productivity",
+    "title": "Handle cash and documents confidently",
+    "progressPercent": 74
+  },
+  {
+    "id": "G00041758_SECONDARY_2",
+    "patientId": "PT00041758",
+    "type": "secondary",
+    "category": "Independence",
+    "title": "Use my affected hand confidently",
+    "progressPercent": 70
+  },
+  {
+    "id": "G00056394_PRIMARY",
+    "patientId": "PT00056394",
+    "type": "primary",
+    "category": "Social & Community",
+    "title": "Improve Social Participation",
+    "progressPercent": 82,
+    "milestones": [
+      {
+        "id": "M0011",
+        "title": "Attend a short social gathering",
+        "status": "completed"
+      },
+      {
+        "id": "M0012",
+        "title": "Travel to a family meal",
+        "status": "completed"
+      },
+      {
+        "id": "M0013",
+        "title": "Return to regular community activities",
+        "status": "in_progress"
+      }
+    ]
+  },
+  {
+    "id": "G00056394_SECONDARY_1",
+    "patientId": "PT00056394",
+    "type": "secondary",
+    "category": "Social & Community",
+    "title": "Meet friends regularly",
+    "progressPercent": 80
+  },
+  {
+    "id": "G00056394_SECONDARY_2",
+    "patientId": "PT00056394",
+    "type": "secondary",
+    "category": "Health & Recreation",
+    "title": "Return to favourite hobbies",
+    "progressPercent": 78
+  },
+  {
+    "id": "G00064827_PRIMARY",
+    "patientId": "PT00064827",
+    "type": "primary",
+    "category": "Daily Living",
+    "title": "Improve Daily Living Skills",
+    "progressPercent": 54,
+    "milestones": [
+      {
+        "id": "M0014",
+        "title": "Hold utensils steadily",
+        "status": "completed"
+      },
+      {
+        "id": "M0015",
+        "title": "Prepare simple ingredients",
+        "status": "in_progress"
+      },
+      {
+        "id": "M0016",
+        "title": "Cook a simple meal with family",
+        "status": "locked"
+      }
+    ]
+  },
+  {
+    "id": "G00064827_SECONDARY_1",
+    "patientId": "PT00064827",
+    "type": "secondary",
+    "category": "Family",
+    "title": "Cook for my family again",
+    "progressPercent": 49
+  },
+  {
+    "id": "G00064827_SECONDARY_2",
+    "patientId": "PT00064827",
+    "type": "secondary",
+    "category": "Daily Living",
+    "title": "Use chopsticks confidently",
+    "progressPercent": 42
+  },
+  {
+    "id": "G00075183_PRIMARY",
+    "patientId": "PT00075183",
+    "type": "primary",
+    "category": "Mobility",
+    "title": "Improve Functional Mobility",
+    "progressPercent": 46,
+    "milestones": [
+      {
+        "id": "M0017",
+        "title": "Stand with assistance",
+        "status": "completed"
+      },
+      {
+        "id": "M0018",
+        "title": "Transfer safely with minimal assistance",
+        "status": "in_progress"
+      },
+      {
+        "id": "M0019",
+        "title": "Walk short distances independently",
+        "status": "locked"
+      }
+    ]
+  },
+  {
+    "id": "G00075183_SECONDARY_1",
+    "patientId": "PT00075183",
+    "type": "secondary",
+    "category": "Independence",
+    "title": "Move around the home more confidently",
+    "progressPercent": 44
+  },
+  {
+    "id": "G00075183_SECONDARY_2",
+    "patientId": "PT00075183",
+    "type": "secondary",
+    "category": "Family",
+    "title": "Spend more time with family at home",
+    "progressPercent": 52
+  }
+]

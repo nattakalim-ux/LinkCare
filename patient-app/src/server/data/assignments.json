@@ -1,0 +1,21 @@
+[
+  {
+    "id": "A00018472",
+    "patientId": "PT00018472",
+    "status": "active",
+    "primaryGoalId": "G00018472_PRIMARY",
+    "focusTitle": "Steering Control & Grip Confidence",
+    "rehabDomain": "Upper Limb",
+    "exercises": [
+      { "exerciseId": "EX0001", "sets": 3, "reps": 10 },
+      { "exerciseId": "EX0002", "sets": 3, "reps": 10 },
+      { "exerciseId": "EX0008", "sets": 3, "reps": 15 }
+    ],
+    "schedule": {
+      "frequency": "Daily",
+      "daysPerWeek": 5,
+      "estimatedMinutes": 20
+    },
+    "therapistTip": "Focus on slow, controlled movements. Quality over quantity."
+  }
+]
